@@ -1,0 +1,135 @@
+{
+    "model": {
+        "name": "Population-Aware Resource Allocation V2",
+        "budget": 3,
+        "need_weight": 0.7,
+        "reach_weight": 0.3
+    },
+    "recommended_allocation": [
+        {
+            "GEOID": "36061001501",
+            "TRACT_NAME": "15.01",
+            "population": 7721,
+            "cooling_priority_score": 79.18,
+            "population_reach_score": 70.1,
+            "impact_score": 76.46,
+            "explanation": "Selected primarily because of very high cooling need."
+        },
+        {
+            "GEOID": "36061002901",
+            "TRACT_NAME": "29.01",
+            "population": 1113,
+            "cooling_priority_score": 95.24,
+            "population_reach_score": 0.0,
+            "impact_score": 66.67,
+            "explanation": "Selected primarily because of very high cooling need."
+        },
+        {
+            "GEOID": "36061001502",
+            "TRACT_NAME": "15.02",
+            "population": 8623,
+            "cooling_priority_score": 59.99,
+            "population_reach_score": 79.66,
+            "impact_score": 65.89,
+            "explanation": "Selected because the intervention could reach a large population."
+        }
+    ],
+    "coverage": {
+        "selected_population": 17457,
+        "total_population": 70646,
+        "population_coverage_percent": 24.71,
+        "selected_priority_sum": 234.41,
+        "total_priority_sum": 559.27,
+        "priority_coverage_percent": 41.91
+    },
+    "full_ranking": [
+        {
+            "GEOID": "36061001501",
+            "TRACT_NAME": "15.01",
+            "population": 7721,
+            "cooling_priority_score": 79.18,
+            "population_reach_score": 70.1,
+            "impact_score": 76.46
+        },
+        {
+            "GEOID": "36061002901",
+            "TRACT_NAME": "29.01",
+            "population": 1113,
+            "cooling_priority_score": 95.24,
+            "population_reach_score": 0.0,
+            "impact_score": 66.67
+        },
+        {
+            "GEOID": "36061001502",
+            "TRACT_NAME": "15.02",
+            "population": 8623,
+            "cooling_priority_score": 59.99,
+            "population_reach_score": 79.66,
+            "impact_score": 65.89
+        },
+        {
+            "GEOID": "36061003100",
+            "TRACT_NAME": "31",
+            "population": 2667,
+            "cooling_priority_score": 77.15,
+            "population_reach_score": 16.48,
+            "impact_score": 58.95
+        },
+        {
+            "GEOID": "36061003300",
+            "TRACT_NAME": "33",
+            "population": 5787,
+            "cooling_priority_score": 60.57,
+            "population_reach_score": 49.58,
+            "impact_score": 57.27
+        },
+        {
+            "GEOID": "36061000700",
+            "TRACT_NAME": "7",
+            "population": 8674,
+            "cooling_priority_score": 39.95,
+            "population_reach_score": 80.21,
+            "impact_score": 52.03
+        },
+        {
+            "GEOID": "36061003900",
+            "TRACT_NAME": "39",
+            "population": 6935,
+            "cooling_priority_score": 47.6,
+            "population_reach_score": 61.76,
+            "impact_score": 51.85
+        },
+        {
+            "GEOID": "36061002100",
+            "TRACT_NAME": "21",
+            "population": 7275,
+            "cooling_priority_score": 37.4,
+            "population_reach_score": 65.37,
+            "impact_score": 45.79
+        },
+        {
+            "GEOID": "36061031704",
+            "TRACT_NAME": "317.04",
+            "population": 10540,
+            "cooling_priority_score": 18.71,
+            "population_reach_score": 100.0,
+            "impact_score": 43.1
+        },
+        {
+            "GEOID": "36061031703",
+            "TRACT_NAME": "317.03",
+            "population": 6450,
+            "cooling_priority_score": 21.17,
+            "population_reach_score": 56.61,
+            "impact_score": 31.8
+        },
+        {
+            "GEOID": "36061001300",
+            "TRACT_NAME": "13",
+            "population": 4861,
+            "cooling_priority_score": 22.31,
+            "population_reach_score": 39.76,
+            "impact_score": 27.54
+        }
+    ]
+}

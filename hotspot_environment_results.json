@@ -1,0 +1,282 @@
+[
+    {
+        "group": "TOP_5",
+        "tile_id": 149,
+        "location": {
+            "latitude": 40.717539,
+            "longitude": -74.003871
+        },
+        "heatmap_data": {
+            "average_temperature": 30.6662,
+            "minimum_temperature": 24.6058,
+            "maximum_temperature": 34.4055,
+            "thermal_range": 9.799700000000005,
+            "cooling_priority_score": 100.0,
+            "priority_label": "Critical Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.717539,
+            "longitude": -74.003871,
+            "elevation": 29.0,
+            "temperature": 30.6662,
+            "heat_index_celsius": 33.1,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "1529474c-415f-4b7e-8a5a-199d7597065d"
+    },
+    {
+        "group": "TOP_5",
+        "tile_id": 137,
+        "location": {
+            "latitude": 40.716656,
+            "longitude": -74.003884
+        },
+        "heatmap_data": {
+            "average_temperature": 30.6642,
+            "minimum_temperature": 24.6058,
+            "maximum_temperature": 34.4034,
+            "thermal_range": 9.7976,
+            "cooling_priority_score": 99.33,
+            "priority_label": "Critical Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.716656,
+            "longitude": -74.003884,
+            "elevation": 42.0,
+            "temperature": 30.6642,
+            "heat_index_celsius": 33.1,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "dfc62b64-3eb3-4364-9b32-58adb8137d48"
+    },
+    {
+        "group": "TOP_5",
+        "tile_id": 125,
+        "location": {
+            "latitude": 40.715774,
+            "longitude": -74.003898
+        },
+        "heatmap_data": {
+            "average_temperature": 30.6621,
+            "minimum_temperature": 24.6056,
+            "maximum_temperature": 34.4014,
+            "thermal_range": 9.795800000000003,
+            "cooling_priority_score": 98.66,
+            "priority_label": "Critical Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.715774,
+            "longitude": -74.003898,
+            "elevation": 43.0,
+            "temperature": 30.6621,
+            "heat_index_celsius": 33.1,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "26ccc1b4-3845-44e7-a4e1-d20a40b766ab"
+    },
+    {
+        "group": "TOP_5",
+        "tile_id": 113,
+        "location": {
+            "latitude": 40.714892,
+            "longitude": -74.003911
+        },
+        "heatmap_data": {
+            "average_temperature": 30.6601,
+            "minimum_temperature": 24.6054,
+            "maximum_temperature": 34.3993,
+            "thermal_range": 9.793899999999997,
+            "cooling_priority_score": 97.99,
+            "priority_label": "Critical Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.714892,
+            "longitude": -74.003911,
+            "elevation": 44.0,
+            "temperature": 30.6601,
+            "heat_index_celsius": 33.1,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "155cc3f6-ecb9-47a9-97d8-093dd91629fb"
+    },
+    {
+        "group": "TOP_5",
+        "tile_id": 101,
+        "location": {
+            "latitude": 40.71401,
+            "longitude": -74.003924
+        },
+        "heatmap_data": {
+            "average_temperature": 30.658,
+            "minimum_temperature": 24.605,
+            "maximum_temperature": 34.3972,
+            "thermal_range": 9.792199999999998,
+            "cooling_priority_score": 97.32,
+            "priority_label": "Critical Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.71401,
+            "longitude": -74.003924,
+            "elevation": 40.0,
+            "temperature": 30.658,
+            "heat_index_celsius": 33.1,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "fe36867a-9f36-43c6-9fa7-ecd33a0cddd2"
+    },
+    {
+        "group": "BOTTOM_5",
+        "tile_id": 2,
+        "location": {
+            "latitude": 40.707034,
+            "longitude": -74.013514
+        },
+        "heatmap_data": {
+            "average_temperature": 29.7418,
+            "minimum_temperature": 24.5111,
+            "maximum_temperature": 33.4722,
+            "thermal_range": 8.961100000000002,
+            "cooling_priority_score": 2.82,
+            "priority_label": "Lower Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.707034,
+            "longitude": -74.013514,
+            "elevation": 42.0,
+            "temperature": 29.7418,
+            "heat_index_celsius": 31.5,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "9ef1285a-c02a-434a-a0fa-a2999be09f41"
+    },
+    {
+        "group": "BOTTOM_5",
+        "tile_id": 104,
+        "location": {
+            "latitude": 40.714984,
+            "longitude": -74.014582
+        },
+        "heatmap_data": {
+            "average_temperature": 29.7418,
+            "minimum_temperature": 24.5109,
+            "maximum_temperature": 33.4721,
+            "thermal_range": 8.961199999999998,
+            "cooling_priority_score": 2.55,
+            "priority_label": "Lower Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.714984,
+            "longitude": -74.014582,
+            "elevation": 16.0,
+            "temperature": 29.7418,
+            "heat_index_celsius": 31.5,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "aeee1bc9-89e6-415f-9a64-6bb981989adf"
+    },
+    {
+        "group": "BOTTOM_5",
+        "tile_id": 116,
+        "location": {
+            "latitude": 40.715866,
+            "longitude": -74.014569
+        },
+        "heatmap_data": {
+            "average_temperature": 29.7417,
+            "minimum_temperature": 24.511,
+            "maximum_temperature": 33.472,
+            "thermal_range": 8.961000000000002,
+            "cooling_priority_score": 1.34,
+            "priority_label": "Lower Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.715866,
+            "longitude": -74.014569,
+            "elevation": 9.0,
+            "temperature": 29.7417,
+            "heat_index_celsius": 31.5,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "790867a1-efa9-4867-9c53-c0df639b757c"
+    },
+    {
+        "group": "BOTTOM_5",
+        "tile_id": 128,
+        "location": {
+            "latitude": 40.716748,
+            "longitude": -74.014556
+        },
+        "heatmap_data": {
+            "average_temperature": 29.7416,
+            "minimum_temperature": 24.511,
+            "maximum_temperature": 33.4719,
+            "thermal_range": 8.960899999999999,
+            "cooling_priority_score": 0.67,
+            "priority_label": "Lower Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.716748,
+            "longitude": -74.014556,
+            "elevation": 11.0,
+            "temperature": 29.7416,
+            "heat_index_celsius": 31.5,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "39db81b3-345f-4f8a-93cb-c4a7701f2696"
+    },
+    {
+        "group": "BOTTOM_5",
+        "tile_id": 140,
+        "location": {
+            "latitude": 40.71763,
+            "longitude": -74.014543
+        },
+        "heatmap_data": {
+            "average_temperature": 29.7416,
+            "minimum_temperature": 24.5111,
+            "maximum_temperature": 33.4718,
+            "thermal_range": 8.960700000000003,
+            "cooling_priority_score": 0.34,
+            "priority_label": "Lower Priority"
+        },
+        "environmental_data": {
+            "latitude": 40.71763,
+            "longitude": -74.014543,
+            "elevation": 3.0,
+            "temperature": 29.7416,
+            "heat_index_celsius": 31.5,
+            "apparent_temperature_celsius": 38.4,
+            "wet_bulb_temperature_celsius": 26.6,
+            "relative_humidity_percent": 55.3,
+            "air_quality_idx": 121.5
+        },
+        "activity_id": "0ade8a47-3437-4e74-8e5a-6835d43e4712"
+    }
+]

@@ -1,0 +1,5852 @@
+[
+    {
+        "tile_id": 149,
+        "average_temperature": 30.6662,
+        "min_temperature": 24.6058,
+        "max_temperature": 34.4055,
+        "thermal_range": 9.799700000000005,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00447078299764,
+                        40.71710271291363
+                    ],
+                    [
+                        -74.00328502496862,
+                        40.717092479826206
+                    ],
+                    [
+                        -74.00327186609414,
+                        40.71797467729236
+                    ],
+                    [
+                        -74.00445763977153,
+                        40.71798491069637
+                    ],
+                    [
+                        -74.00447078299764,
+                        40.71710271291363
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 100.0,
+        "maximum_heat_score": 100.0,
+        "thermal_range_score": 100.0,
+        "cooling_priority_score": 100.0,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 137,
+        "average_temperature": 30.6642,
+        "min_temperature": 24.6058,
+        "max_temperature": 34.4034,
+        "thermal_range": 9.7976,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00448392564165,
+                        40.7162205149921
+                    ],
+                    [
+                        -74.00329818326028,
+                        40.716210282221276
+                    ],
+                    [
+                        -74.00328502496862,
+                        40.7170924798262
+                    ],
+                    [
+                        -74.00447078299764,
+                        40.71710271291362
+                    ],
+                    [
+                        -74.00448392564165,
+                        40.7162205149921
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 99.33,
+        "maximum_heat_score": 99.33,
+        "thermal_range_score": 99.33,
+        "cooling_priority_score": 99.33,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 125,
+        "average_temperature": 30.6621,
+        "min_temperature": 24.6056,
+        "max_temperature": 34.4014,
+        "thermal_range": 9.795800000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00449706770355,
+                        40.71533831693182
+                    ],
+                    [
+                        -74.00331134096915,
+                        40.71532808447757
+                    ],
+                    [
+                        -74.00329818326028,
+                        40.71621028222127
+                    ],
+                    [
+                        -74.00448392564165,
+                        40.7162205149921
+                    ],
+                    [
+                        -74.00449706770355,
+                        40.71533831693182
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 98.66,
+        "maximum_heat_score": 98.66,
+        "thermal_range_score": 98.66,
+        "cooling_priority_score": 98.66,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 113,
+        "average_temperature": 30.6601,
+        "min_temperature": 24.6054,
+        "max_temperature": 34.3993,
+        "thermal_range": 9.793899999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0045102091834,
+                        40.714456118732784
+                    ],
+                    [
+                        -74.00332449809528,
+                        40.71444588659508
+                    ],
+                    [
+                        -74.00331134096915,
+                        40.71532808447757
+                    ],
+                    [
+                        -74.00449706770355,
+                        40.71533831693182
+                    ],
+                    [
+                        -74.0045102091834,
+                        40.714456118732784
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 97.99,
+        "maximum_heat_score": 97.99,
+        "thermal_range_score": 97.99,
+        "cooling_priority_score": 97.99,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 101,
+        "average_temperature": 30.658,
+        "min_temperature": 24.605,
+        "max_temperature": 34.3972,
+        "thermal_range": 9.792199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00452335008121,
+                        40.71357392039496
+                    ],
+                    [
+                        -74.00333765463868,
+                        40.71356368857381
+                    ],
+                    [
+                        -74.00332449809528,
+                        40.714445886595065
+                    ],
+                    [
+                        -74.0045102091834,
+                        40.71445611873277
+                    ],
+                    [
+                        -74.00452335008121,
+                        40.71357392039496
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 97.32,
+        "maximum_heat_score": 97.32,
+        "thermal_range_score": 97.32,
+        "cooling_priority_score": 97.32,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 89,
+        "average_temperature": 30.6559,
+        "min_temperature": 24.6046,
+        "max_temperature": 34.3952,
+        "thermal_range": 9.790600000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00453649039702,
+                        40.712691721918354
+                    ],
+                    [
+                        -74.00335081059939,
+                        40.712681490413765
+                    ],
+                    [
+                        -74.00333765463868,
+                        40.71356368857381
+                    ],
+                    [
+                        -74.00452335008121,
+                        40.71357392039496
+                    ],
+                    [
+                        -74.00453649039702,
+                        40.712691721918354
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 96.64,
+        "maximum_heat_score": 96.64,
+        "thermal_range_score": 96.64,
+        "cooling_priority_score": 96.64,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 77,
+        "average_temperature": 30.6539,
+        "min_temperature": 24.6043,
+        "max_temperature": 34.3931,
+        "thermal_range": 9.788799999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00454963013085,
+                        40.71180952330299
+                    ],
+                    [
+                        -74.00336396597744,
+                        40.71179929211493
+                    ],
+                    [
+                        -74.00335081059939,
+                        40.71268149041376
+                    ],
+                    [
+                        -74.00453649039702,
+                        40.71269172191835
+                    ],
+                    [
+                        -74.00454963013085,
+                        40.71180952330299
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 95.97,
+        "maximum_heat_score": 95.97,
+        "thermal_range_score": 95.97,
+        "cooling_priority_score": 95.97,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 65,
+        "average_temperature": 30.6518,
+        "min_temperature": 24.604,
+        "max_temperature": 34.391,
+        "thermal_range": 9.786999999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00456276928274,
+                        40.71092732454886
+                    ],
+                    [
+                        -74.00337712077284,
+                        40.71091709367734
+                    ],
+                    [
+                        -74.00336396597744,
+                        40.71179929211493
+                    ],
+                    [
+                        -74.00454963013085,
+                        40.71180952330298
+                    ],
+                    [
+                        -74.00456276928274,
+                        40.71092732454886
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 95.3,
+        "maximum_heat_score": 95.3,
+        "thermal_range_score": 95.3,
+        "cooling_priority_score": 95.3,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 54,
+        "average_temperature": 30.6498,
+        "min_temperature": 24.6038,
+        "max_temperature": 34.389,
+        "thermal_range": 9.785200000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00457590785274,
+                        40.710045125655974
+                    ],
+                    [
+                        -74.00339027498563,
+                        40.71003489510097
+                    ],
+                    [
+                        -74.00337712077284,
+                        40.71091709367733
+                    ],
+                    [
+                        -74.00456276928274,
+                        40.710927324548855
+                    ],
+                    [
+                        -74.00457590785274,
+                        40.710045125655974
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 94.63,
+        "maximum_heat_score": 94.63,
+        "thermal_range_score": 94.63,
+        "cooling_priority_score": 94.63,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 43,
+        "average_temperature": 30.6477,
+        "min_temperature": 24.6036,
+        "max_temperature": 34.3869,
+        "thermal_range": 9.783299999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00458904584082,
+                        40.709162926624316
+                    ],
+                    [
+                        -74.00340342861585,
+                        40.70915269638583
+                    ],
+                    [
+                        -74.00339027498563,
+                        40.71003489510097
+                    ],
+                    [
+                        -74.00457590785274,
+                        40.710045125655974
+                    ],
+                    [
+                        -74.00458904584082,
+                        40.709162926624316
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 93.96,
+        "maximum_heat_score": 93.96,
+        "thermal_range_score": 93.96,
+        "cooling_priority_score": 93.96,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 32,
+        "average_temperature": 30.6457,
+        "min_temperature": 24.6034,
+        "max_temperature": 34.3848,
+        "thermal_range": 9.781399999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00460218324707,
+                        40.70828072745389
+                    ],
+                    [
+                        -74.00341658166354,
+                        40.70827049753192
+                    ],
+                    [
+                        -74.00340342861585,
+                        40.70915269638583
+                    ],
+                    [
+                        -74.00458904584082,
+                        40.70916292662431
+                    ],
+                    [
+                        -74.00460218324707,
+                        40.70828072745389
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 93.29,
+        "maximum_heat_score": 93.29,
+        "thermal_range_score": 93.29,
+        "cooling_priority_score": 93.29,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 21,
+        "average_temperature": 30.6436,
+        "min_temperature": 24.6032,
+        "max_temperature": 34.3828,
+        "thermal_range": 9.779600000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00461532007148,
+                        40.70739852814471
+                    ],
+                    [
+                        -74.00342973412869,
+                        40.70738829853922
+                    ],
+                    [
+                        -74.00341658166354,
+                        40.7082704975319
+                    ],
+                    [
+                        -74.00460218324707,
+                        40.708280727453875
+                    ],
+                    [
+                        -74.00461532007148,
+                        40.70739852814471
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 92.62,
+        "maximum_heat_score": 92.62,
+        "thermal_range_score": 92.62,
+        "cooling_priority_score": 92.62,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 10,
+        "average_temperature": 30.6416,
+        "min_temperature": 24.6031,
+        "max_temperature": 34.3807,
+        "thermal_range": 9.777599999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00462845631408,
+                        40.70651632869675
+                    ],
+                    [
+                        -74.00344288601136,
+                        40.706506099407775
+                    ],
+                    [
+                        -74.00342973412869,
+                        40.70738829853922
+                    ],
+                    [
+                        -74.00461532007148,
+                        40.7073985281447
+                    ],
+                    [
+                        -74.00462845631408,
+                        40.70651632869675
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 91.95,
+        "maximum_heat_score": 91.95,
+        "thermal_range_score": 91.95,
+        "cooling_priority_score": 91.95,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 148,
+        "average_temperature": 30.4828,
+        "min_temperature": 24.5871,
+        "max_temperature": 34.2203,
+        "thermal_range": 9.633200000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00565654163552,
+                        40.71711293382315
+                    ],
+                    [
+                        -74.00447078299764,
+                        40.71710271291363
+                    ],
+                    [
+                        -74.00445763977153,
+                        40.71798491069637
+                    ],
+                    [
+                        -74.0056434140578,
+                        40.71799513192212
+                    ],
+                    [
+                        -74.00565654163552,
+                        40.71711293382315
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 91.28,
+        "maximum_heat_score": 91.28,
+        "thermal_range_score": 91.28,
+        "cooling_priority_score": 91.28,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 136,
+        "average_temperature": 30.4808,
+        "min_temperature": 24.587,
+        "max_temperature": 34.2182,
+        "thermal_range": 9.631200000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00566966863181,
+                        40.716230735585434
+                    ],
+                    [
+                        -74.00448392564165,
+                        40.7162205149921
+                    ],
+                    [
+                        -74.00447078299764,
+                        40.71710271291362
+                    ],
+                    [
+                        -74.00565654163553,
+                        40.717112933823145
+                    ],
+                    [
+                        -74.00566966863181,
+                        40.716230735585434
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 90.6,
+        "maximum_heat_score": 90.6,
+        "thermal_range_score": 90.6,
+        "cooling_priority_score": 90.6,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 124,
+        "average_temperature": 30.4788,
+        "min_temperature": 24.5868,
+        "max_temperature": 34.2162,
+        "thermal_range": 9.6294,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00568279504671,
+                        40.715348537208946
+                    ],
+                    [
+                        -74.00449706770355,
+                        40.71533831693182
+                    ],
+                    [
+                        -74.00448392564165,
+                        40.7162205149921
+                    ],
+                    [
+                        -74.00566966863181,
+                        40.71623073558543
+                    ],
+                    [
+                        -74.00568279504671,
+                        40.715348537208946
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 89.93,
+        "maximum_heat_score": 89.93,
+        "thermal_range_score": 89.93,
+        "cooling_priority_score": 89.93,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 112,
+        "average_temperature": 30.4768,
+        "min_temperature": 24.5865,
+        "max_temperature": 34.2142,
+        "thermal_range": 9.627699999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00569592088024,
+                        40.71446633869372
+                    ],
+                    [
+                        -74.0045102091834,
+                        40.714456118732784
+                    ],
+                    [
+                        -74.00449706770355,
+                        40.71533831693182
+                    ],
+                    [
+                        -74.00568279504671,
+                        40.715348537208946
+                    ],
+                    [
+                        -74.00569592088024,
+                        40.71446633869372
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 89.26,
+        "maximum_heat_score": 89.26,
+        "thermal_range_score": 89.26,
+        "cooling_priority_score": 89.26,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 100,
+        "average_temperature": 30.4747,
+        "min_temperature": 24.5862,
+        "max_temperature": 34.2122,
+        "thermal_range": 9.626000000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00570904613244,
+                        40.7135841400397
+                    ],
+                    [
+                        -74.00452335008121,
+                        40.71357392039496
+                    ],
+                    [
+                        -74.0045102091834,
+                        40.71445611873277
+                    ],
+                    [
+                        -74.00569592088024,
+                        40.714466338693704
+                    ],
+                    [
+                        -74.00570904613244,
+                        40.7135841400397
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 88.59,
+        "maximum_heat_score": 88.59,
+        "thermal_range_score": 88.59,
+        "cooling_priority_score": 88.59,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 88,
+        "average_temperature": 30.4727,
+        "min_temperature": 24.5859,
+        "max_temperature": 34.2101,
+        "thermal_range": 9.624199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00572217080331,
+                        40.71270194124695
+                    ],
+                    [
+                        -74.00453649039702,
+                        40.712691721918354
+                    ],
+                    [
+                        -74.00452335008121,
+                        40.71357392039496
+                    ],
+                    [
+                        -74.00570904613244,
+                        40.71358414003969
+                    ],
+                    [
+                        -74.00572217080331,
+                        40.71270194124695
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 87.92,
+        "maximum_heat_score": 87.92,
+        "thermal_range_score": 87.92,
+        "cooling_priority_score": 87.92,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 76,
+        "average_temperature": 30.4707,
+        "min_temperature": 24.5856,
+        "max_temperature": 34.2081,
+        "thermal_range": 9.622500000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00573529489292,
+                        40.71181974231541
+                    ],
+                    [
+                        -74.00454963013085,
+                        40.71180952330299
+                    ],
+                    [
+                        -74.00453649039702,
+                        40.71269172191835
+                    ],
+                    [
+                        -74.00572217080331,
+                        40.712701941246934
+                    ],
+                    [
+                        -74.00573529489292,
+                        40.71181974231541
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 87.25,
+        "maximum_heat_score": 87.25,
+        "thermal_range_score": 87.25,
+        "cooling_priority_score": 87.25,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 64,
+        "average_temperature": 30.4687,
+        "min_temperature": 24.5853,
+        "max_temperature": 34.2061,
+        "thermal_range": 9.6208,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00574841840128,
+                        40.71093754324514
+                    ],
+                    [
+                        -74.00456276928274,
+                        40.71092732454886
+                    ],
+                    [
+                        -74.00454963013085,
+                        40.71180952330298
+                    ],
+                    [
+                        -74.00573529489292,
+                        40.711819742315406
+                    ],
+                    [
+                        -74.00574841840128,
+                        40.71093754324514
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 86.58,
+        "maximum_heat_score": 86.58,
+        "thermal_range_score": 86.58,
+        "cooling_priority_score": 86.58,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 53,
+        "average_temperature": 30.4667,
+        "min_temperature": 24.5851,
+        "max_temperature": 34.2041,
+        "thermal_range": 9.618999999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00576154132841,
+                        40.71005534403609
+                    ],
+                    [
+                        -74.00457590785274,
+                        40.710045125655974
+                    ],
+                    [
+                        -74.00456276928274,
+                        40.710927324548855
+                    ],
+                    [
+                        -74.00574841840128,
+                        40.71093754324512
+                    ],
+                    [
+                        -74.00576154132841,
+                        40.71005534403609
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 85.91,
+        "maximum_heat_score": 85.91,
+        "thermal_range_score": 85.91,
+        "cooling_priority_score": 85.91,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 42,
+        "average_temperature": 30.4647,
+        "min_temperature": 24.5849,
+        "max_temperature": 34.2021,
+        "thermal_range": 9.6172,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00577466367433,
+                        40.7091731446883
+                    ],
+                    [
+                        -74.00458904584082,
+                        40.709162926624316
+                    ],
+                    [
+                        -74.00457590785274,
+                        40.710045125655974
+                    ],
+                    [
+                        -74.00576154132841,
+                        40.71005534403609
+                    ],
+                    [
+                        -74.00577466367433,
+                        40.7091731446883
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 85.23,
+        "maximum_heat_score": 85.23,
+        "thermal_range_score": 85.23,
+        "cooling_priority_score": 85.23,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 31,
+        "average_temperature": 30.4627,
+        "min_temperature": 24.5847,
+        "max_temperature": 34.2001,
+        "thermal_range": 9.615399999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00578778543911,
+                        40.70829094520175
+                    ],
+                    [
+                        -74.00460218324707,
+                        40.70828072745389
+                    ],
+                    [
+                        -74.00458904584082,
+                        40.70916292662431
+                    ],
+                    [
+                        -74.00577466367433,
+                        40.70917314468829
+                    ],
+                    [
+                        -74.00578778543911,
+                        40.70829094520175
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 84.56,
+        "maximum_heat_score": 84.56,
+        "thermal_range_score": 84.56,
+        "cooling_priority_score": 84.56,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 20,
+        "average_temperature": 30.4607,
+        "min_temperature": 24.5845,
+        "max_temperature": 34.198,
+        "thermal_range": 9.613500000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00580090662274,
+                        40.70740874557644
+                    ],
+                    [
+                        -74.00461532007148,
+                        40.70739852814471
+                    ],
+                    [
+                        -74.00460218324707,
+                        40.708280727453875
+                    ],
+                    [
+                        -74.00578778543911,
+                        40.70829094520174
+                    ],
+                    [
+                        -74.00580090662274,
+                        40.70740874557644
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 83.89,
+        "maximum_heat_score": 83.89,
+        "thermal_range_score": 83.89,
+        "cooling_priority_score": 83.89,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 9,
+        "average_temperature": 30.4587,
+        "min_temperature": 24.5844,
+        "max_temperature": 34.196,
+        "thermal_range": 9.6116,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00581402722528,
+                        40.70652654581237
+                    ],
+                    [
+                        -74.00462845631408,
+                        40.70651632869675
+                    ],
+                    [
+                        -74.00461532007148,
+                        40.7073985281447
+                    ],
+                    [
+                        -74.00580090662274,
+                        40.70740874557643
+                    ],
+                    [
+                        -74.00581402722528,
+                        40.70652654581237
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 83.22,
+        "maximum_heat_score": 83.22,
+        "thermal_range_score": 83.22,
+        "cooling_priority_score": 83.22,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 147,
+        "average_temperature": 30.3065,
+        "min_temperature": 24.5691,
+        "max_temperature": 34.0423,
+        "thermal_range": 9.473199999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0068423008815,
+                        40.71712314255478
+                    ],
+                    [
+                        -74.00565654163552,
+                        40.71711293382315
+                    ],
+                    [
+                        -74.0056434140578,
+                        40.71799513192212
+                    ],
+                    [
+                        -74.0068291889522,
+                        40.71800534096958
+                    ],
+                    [
+                        -74.0068423008815,
+                        40.71712314255478
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 82.55,
+        "maximum_heat_score": 82.55,
+        "thermal_range_score": 82.55,
+        "cooling_priority_score": 82.55,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 135,
+        "average_temperature": 30.3046,
+        "min_temperature": 24.569,
+        "max_temperature": 34.0404,
+        "thermal_range": 9.4714,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00685541223007,
+                        40.716240944001235
+                    ],
+                    [
+                        -74.00566966863181,
+                        40.716230735585434
+                    ],
+                    [
+                        -74.00565654163553,
+                        40.717112933823145
+                    ],
+                    [
+                        -74.0068423008815,
+                        40.717123142554776
+                    ],
+                    [
+                        -74.00685541223007,
+                        40.716240944001235
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 81.88,
+        "maximum_heat_score": 81.88,
+        "thermal_range_score": 81.88,
+        "cooling_priority_score": 81.88,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 123,
+        "average_temperature": 30.3027,
+        "min_temperature": 24.5688,
+        "max_temperature": 34.0385,
+        "thermal_range": 9.4697,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00686852299793,
+                        40.71535874530893
+                    ],
+                    [
+                        -74.00568279504671,
+                        40.715348537208946
+                    ],
+                    [
+                        -74.00566966863181,
+                        40.71623073558543
+                    ],
+                    [
+                        -74.00685541223007,
+                        40.71624094400122
+                    ],
+                    [
+                        -74.00686852299793,
+                        40.71535874530893
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 81.21,
+        "maximum_heat_score": 81.21,
+        "thermal_range_score": 81.21,
+        "cooling_priority_score": 81.21,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 111,
+        "average_temperature": 30.3008,
+        "min_temperature": 24.5685,
+        "max_temperature": 34.0366,
+        "thermal_range": 9.4681,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00688163318512,
+                        40.714476546477876
+                    ],
+                    [
+                        -74.00569592088024,
+                        40.71446633869372
+                    ],
+                    [
+                        -74.00568279504671,
+                        40.715348537208946
+                    ],
+                    [
+                        -74.00686852299793,
+                        40.71535874530893
+                    ],
+                    [
+                        -74.00688163318512,
+                        40.714476546477876
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 80.54,
+        "maximum_heat_score": 80.54,
+        "thermal_range_score": 80.54,
+        "cooling_priority_score": 80.54,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 99,
+        "average_temperature": 30.2989,
+        "min_temperature": 24.5682,
+        "max_temperature": 34.0347,
+        "thermal_range": 9.4665,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00689474279164,
+                        40.713594347508064
+                    ],
+                    [
+                        -74.00570904613244,
+                        40.7135841400397
+                    ],
+                    [
+                        -74.00569592088024,
+                        40.714466338693704
+                    ],
+                    [
+                        -74.00688163318512,
+                        40.71447654647787
+                    ],
+                    [
+                        -74.00689474279164,
+                        40.713594347508064
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 79.87,
+        "maximum_heat_score": 79.87,
+        "thermal_range_score": 79.87,
+        "cooling_priority_score": 79.87,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 87,
+        "average_temperature": 30.2971,
+        "min_temperature": 24.5679,
+        "max_temperature": 34.0328,
+        "thermal_range": 9.4649,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00690785181757,
+                        40.71271214839951
+                    ],
+                    [
+                        -74.00572217080331,
+                        40.71270194124695
+                    ],
+                    [
+                        -74.00570904613244,
+                        40.71358414003969
+                    ],
+                    [
+                        -74.00689474279164,
+                        40.71359434750806
+                    ],
+                    [
+                        -74.00690785181757,
+                        40.71271214839951
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 79.19,
+        "maximum_heat_score": 79.19,
+        "thermal_range_score": 79.19,
+        "cooling_priority_score": 79.19,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 75,
+        "average_temperature": 30.2952,
+        "min_temperature": 24.5676,
+        "max_temperature": 34.0309,
+        "thermal_range": 9.463300000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00692096026292,
+                        40.7118299491522
+                    ],
+                    [
+                        -74.00573529489292,
+                        40.71181974231541
+                    ],
+                    [
+                        -74.00572217080331,
+                        40.712701941246934
+                    ],
+                    [
+                        -74.00690785181757,
+                        40.7127121483995
+                    ],
+                    [
+                        -74.00692096026292,
+                        40.7118299491522
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 78.52,
+        "maximum_heat_score": 78.52,
+        "thermal_range_score": 78.52,
+        "cooling_priority_score": 78.52,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 63,
+        "average_temperature": 30.2933,
+        "min_temperature": 24.5673,
+        "max_temperature": 34.029,
+        "thermal_range": 9.461700000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00693406812769,
+                        40.710947749766135
+                    ],
+                    [
+                        -74.00574841840128,
+                        40.71093754324514
+                    ],
+                    [
+                        -74.00573529489292,
+                        40.711819742315406
+                    ],
+                    [
+                        -74.00692096026292,
+                        40.71182994915219
+                    ],
+                    [
+                        -74.00693406812769,
+                        40.710947749766135
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 77.85,
+        "maximum_heat_score": 77.85,
+        "thermal_range_score": 77.85,
+        "cooling_priority_score": 77.85,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 52,
+        "average_temperature": 30.2914,
+        "min_temperature": 24.5671,
+        "max_temperature": 34.0271,
+        "thermal_range": 9.459999999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00694717541194,
+                        40.71006555024132
+                    ],
+                    [
+                        -74.00576154132841,
+                        40.71005534403609
+                    ],
+                    [
+                        -74.00574841840128,
+                        40.71093754324512
+                    ],
+                    [
+                        -74.00693406812769,
+                        40.71094774976613
+                    ],
+                    [
+                        -74.00694717541194,
+                        40.71006555024132
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 77.18,
+        "maximum_heat_score": 77.18,
+        "thermal_range_score": 77.18,
+        "cooling_priority_score": 77.18,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 41,
+        "average_temperature": 30.2895,
+        "min_temperature": 24.567,
+        "max_temperature": 34.0252,
+        "thermal_range": 9.458199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00696028211568,
+                        40.70918335057776
+                    ],
+                    [
+                        -74.00577466367433,
+                        40.7091731446883
+                    ],
+                    [
+                        -74.00576154132841,
+                        40.71005534403609
+                    ],
+                    [
+                        -74.00694717541194,
+                        40.71006555024132
+                    ],
+                    [
+                        -74.00696028211568,
+                        40.70918335057776
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 76.51,
+        "maximum_heat_score": 76.51,
+        "thermal_range_score": 76.51,
+        "cooling_priority_score": 76.51,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 30,
+        "average_temperature": 30.2877,
+        "min_temperature": 24.5668,
+        "max_temperature": 34.0233,
+        "thermal_range": 9.456499999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00697338823896,
+                        40.70830115077546
+                    ],
+                    [
+                        -74.00578778543911,
+                        40.70829094520175
+                    ],
+                    [
+                        -74.00577466367433,
+                        40.70917314468829
+                    ],
+                    [
+                        -74.00696028211568,
+                        40.70918335057776
+                    ],
+                    [
+                        -74.00697338823896,
+                        40.70830115077546
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 75.84,
+        "maximum_heat_score": 75.84,
+        "thermal_range_score": 75.84,
+        "cooling_priority_score": 75.84,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 19,
+        "average_temperature": 30.2858,
+        "min_temperature": 24.5667,
+        "max_temperature": 34.0215,
+        "thermal_range": 9.454800000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0069864937818,
+                        40.7074189508344
+                    ],
+                    [
+                        -74.00580090662274,
+                        40.70740874557644
+                    ],
+                    [
+                        -74.00578778543911,
+                        40.70829094520174
+                    ],
+                    [
+                        -74.00697338823896,
+                        40.708301150775455
+                    ],
+                    [
+                        -74.0069864937818,
+                        40.7074189508344
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 75.17,
+        "maximum_heat_score": 75.17,
+        "thermal_range_score": 75.17,
+        "cooling_priority_score": 75.17,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "tile_id": 8,
+        "average_temperature": 30.2839,
+        "min_temperature": 24.5665,
+        "max_temperature": 34.0196,
+        "thermal_range": 9.453099999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00699959874422,
+                        40.706536750754594
+                    ],
+                    [
+                        -74.00581402722528,
+                        40.70652654581237
+                    ],
+                    [
+                        -74.00580090662274,
+                        40.70740874557643
+                    ],
+                    [
+                        -74.0069864937818,
+                        40.707418950834395
+                    ],
+                    [
+                        -74.00699959874422,
+                        40.706536750754594
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 74.5,
+        "maximum_heat_score": 74.5,
+        "thermal_range_score": 74.5,
+        "cooling_priority_score": 74.5,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 146,
+        "average_temperature": 30.1447,
+        "min_temperature": 24.5525,
+        "max_temperature": 33.8789,
+        "thermal_range": 9.326400000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00802806073486,
+                        40.717133339108486
+                    ],
+                    [
+                        -74.0068423008815,
+                        40.71712314255478
+                    ],
+                    [
+                        -74.0068291889522,
+                        40.71800534096958
+                    ],
+                    [
+                        -74.008014964454,
+                        40.71801553783874
+                    ],
+                    [
+                        -74.00802806073486,
+                        40.717133339108486
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 73.83,
+        "maximum_heat_score": 73.83,
+        "thermal_range_score": 73.83,
+        "cooling_priority_score": 73.83,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 134,
+        "average_temperature": 30.1431,
+        "min_temperature": 24.5524,
+        "max_temperature": 33.8772,
+        "thermal_range": 9.324800000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00804115643567,
+                        40.71625114023948
+                    ],
+                    [
+                        -74.00685541223007,
+                        40.716240944001235
+                    ],
+                    [
+                        -74.0068423008815,
+                        40.717123142554776
+                    ],
+                    [
+                        -74.00802806073486,
+                        40.71713333910848
+                    ],
+                    [
+                        -74.00804115643567,
+                        40.71625114023948
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 73.15,
+        "maximum_heat_score": 73.15,
+        "thermal_range_score": 73.15,
+        "cooling_priority_score": 73.15,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 122,
+        "average_temperature": 30.1414,
+        "min_temperature": 24.5522,
+        "max_temperature": 33.8755,
+        "thermal_range": 9.323300000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00805425155644,
+                        40.71536894123174
+                    ],
+                    [
+                        -74.00686852299792,
+                        40.71535874530893
+                    ],
+                    [
+                        -74.00685541223007,
+                        40.71624094400122
+                    ],
+                    [
+                        -74.00804115643567,
+                        40.71625114023948
+                    ],
+                    [
+                        -74.00805425155644,
+                        40.71536894123174
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 72.48,
+        "maximum_heat_score": 72.48,
+        "thermal_range_score": 72.48,
+        "cooling_priority_score": 72.48,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 110,
+        "average_temperature": 30.1397,
+        "min_temperature": 24.5519,
+        "max_temperature": 33.8738,
+        "thermal_range": 9.321900000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00806734609726,
+                        40.71448674208525
+                    ],
+                    [
+                        -74.0068816331851,
+                        40.714476546477876
+                    ],
+                    [
+                        -74.00686852299792,
+                        40.71535874530893
+                    ],
+                    [
+                        -74.00805425155644,
+                        40.71536894123174
+                    ],
+                    [
+                        -74.00806734609726,
+                        40.71448674208525
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 71.81,
+        "maximum_heat_score": 71.81,
+        "thermal_range_score": 71.81,
+        "cooling_priority_score": 71.81,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 98,
+        "average_temperature": 30.138,
+        "min_temperature": 24.5517,
+        "max_temperature": 33.8722,
+        "thermal_range": 9.3205,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00808044005812,
+                        40.71360454280001
+                    ],
+                    [
+                        -74.00689474279164,
+                        40.713594347508064
+                    ],
+                    [
+                        -74.0068816331851,
+                        40.71447654647787
+                    ],
+                    [
+                        -74.00806734609726,
+                        40.71448674208525
+                    ],
+                    [
+                        -74.00808044005812,
+                        40.71360454280001
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 71.14,
+        "maximum_heat_score": 71.14,
+        "thermal_range_score": 71.14,
+        "cooling_priority_score": 71.14,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 86,
+        "average_temperature": 30.1363,
+        "min_temperature": 24.5514,
+        "max_temperature": 33.8705,
+        "thermal_range": 9.319099999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00809353343907,
+                        40.71272234337604
+                    ],
+                    [
+                        -74.00690785181757,
+                        40.71271214839951
+                    ],
+                    [
+                        -74.00689474279164,
+                        40.71359434750806
+                    ],
+                    [
+                        -74.00808044005812,
+                        40.713604542800006
+                    ],
+                    [
+                        -74.00809353343907,
+                        40.71272234337604
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 70.47,
+        "maximum_heat_score": 70.47,
+        "thermal_range_score": 70.47,
+        "cooling_priority_score": 70.47,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 74,
+        "average_temperature": 30.1346,
+        "min_temperature": 24.5512,
+        "max_temperature": 33.8688,
+        "thermal_range": 9.317599999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0081066262401,
+                        40.711840143813305
+                    ],
+                    [
+                        -74.00692096026292,
+                        40.7118299491522
+                    ],
+                    [
+                        -74.00690785181757,
+                        40.7127121483995
+                    ],
+                    [
+                        -74.00809353343907,
+                        40.71272234337603
+                    ],
+                    [
+                        -74.0081066262401,
+                        40.711840143813305
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 69.8,
+        "maximum_heat_score": 69.8,
+        "thermal_range_score": 69.8,
+        "cooling_priority_score": 69.8,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 62,
+        "average_temperature": 30.133,
+        "min_temperature": 24.5509,
+        "max_temperature": 33.8671,
+        "thermal_range": 9.316200000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00811971846127,
+                        40.71095794411185
+                    ],
+                    [
+                        -74.00693406812769,
+                        40.710947749766135
+                    ],
+                    [
+                        -74.00692096026292,
+                        40.71182994915219
+                    ],
+                    [
+                        -74.0081066262401,
+                        40.7118401438133
+                    ],
+                    [
+                        -74.00811971846127,
+                        40.71095794411185
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 69.13,
+        "maximum_heat_score": 69.13,
+        "thermal_range_score": 69.13,
+        "cooling_priority_score": 69.13,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 51,
+        "average_temperature": 30.1313,
+        "min_temperature": 24.5508,
+        "max_temperature": 33.8654,
+        "thermal_range": 9.314600000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00813281010261,
+                        40.710075744271634
+                    ],
+                    [
+                        -74.00694717541194,
+                        40.71006555024132
+                    ],
+                    [
+                        -74.00693406812769,
+                        40.71094774976613
+                    ],
+                    [
+                        -74.00811971846127,
+                        40.71095794411184
+                    ],
+                    [
+                        -74.00813281010261,
+                        40.710075744271634
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 68.46,
+        "maximum_heat_score": 68.46,
+        "thermal_range_score": 68.46,
+        "cooling_priority_score": 68.46,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 40,
+        "average_temperature": 30.1296,
+        "min_temperature": 24.5506,
+        "max_temperature": 33.8638,
+        "thermal_range": 9.313199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00814590116414,
+                        40.709193544292695
+                    ],
+                    [
+                        -74.00696028211568,
+                        40.70918335057776
+                    ],
+                    [
+                        -74.00694717541194,
+                        40.71006555024132
+                    ],
+                    [
+                        -74.00813281010261,
+                        40.710075744271634
+                    ],
+                    [
+                        -74.00814590116414,
+                        40.709193544292695
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 67.79,
+        "maximum_heat_score": 67.79,
+        "thermal_range_score": 67.79,
+        "cooling_priority_score": 67.79,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 29,
+        "average_temperature": 30.128,
+        "min_temperature": 24.5505,
+        "max_temperature": 33.8621,
+        "thermal_range": 9.311599999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00815899164589,
+                        40.708311344175016
+                    ],
+                    [
+                        -74.00697338823896,
+                        40.70830115077546
+                    ],
+                    [
+                        -74.00696028211568,
+                        40.70918335057776
+                    ],
+                    [
+                        -74.00814590116414,
+                        40.70919354429268
+                    ],
+                    [
+                        -74.00815899164589,
+                        40.708311344175016
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 67.11,
+        "maximum_heat_score": 67.11,
+        "thermal_range_score": 67.11,
+        "cooling_priority_score": 67.11,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 18,
+        "average_temperature": 30.1263,
+        "min_temperature": 24.5504,
+        "max_temperature": 33.8604,
+        "thermal_range": 9.309999999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0081720815479,
+                        40.70742914391858
+                    ],
+                    [
+                        -74.0069864937818,
+                        40.7074189508344
+                    ],
+                    [
+                        -74.00697338823896,
+                        40.708301150775455
+                    ],
+                    [
+                        -74.00815899164589,
+                        40.708311344175
+                    ],
+                    [
+                        -74.0081720815479,
+                        40.70742914391858
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 66.44,
+        "maximum_heat_score": 66.44,
+        "thermal_range_score": 66.44,
+        "cooling_priority_score": 66.44,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 7,
+        "average_temperature": 30.1247,
+        "min_temperature": 24.5503,
+        "max_temperature": 33.8588,
+        "thermal_range": 9.308500000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00818517087018,
+                        40.70654694352341
+                    ],
+                    [
+                        -74.00699959874422,
+                        40.706536750754594
+                    ],
+                    [
+                        -74.0069864937818,
+                        40.707418950834395
+                    ],
+                    [
+                        -74.0081720815479,
+                        40.70742914391858
+                    ],
+                    [
+                        -74.00818517087018,
+                        40.70654694352341
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 65.77,
+        "maximum_heat_score": 65.77,
+        "thermal_range_score": 65.77,
+        "cooling_priority_score": 65.77,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 145,
+        "average_temperature": 30.0049,
+        "min_temperature": 24.5382,
+        "max_temperature": 33.7377,
+        "thermal_range": 9.199499999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00921382119488,
+                        40.71714352348424
+                    ],
+                    [
+                        -74.00802806073486,
+                        40.717133339108486
+                    ],
+                    [
+                        -74.008014964454,
+                        40.71801553783874
+                    ],
+                    [
+                        -74.0092007405625,
+                        40.718025722529575
+                    ],
+                    [
+                        -74.00921382119488,
+                        40.71714352348424
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 65.1,
+        "maximum_heat_score": 65.1,
+        "thermal_range_score": 65.1,
+        "cooling_priority_score": 65.1,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 133,
+        "average_temperature": 30.0035,
+        "min_temperature": 24.5381,
+        "max_temperature": 33.7363,
+        "thermal_range": 9.1982,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00922690124789,
+                        40.71626132430016
+                    ],
+                    [
+                        -74.00804115643567,
+                        40.71625114023948
+                    ],
+                    [
+                        -74.00802806073486,
+                        40.71713333910848
+                    ],
+                    [
+                        -74.00921382119488,
+                        40.717143523484225
+                    ],
+                    [
+                        -74.00922690124789,
+                        40.71626132430016
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 64.43,
+        "maximum_heat_score": 64.43,
+        "thermal_range_score": 64.43,
+        "cooling_priority_score": 64.43,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 121,
+        "average_temperature": 30.0021,
+        "min_temperature": 24.5379,
+        "max_temperature": 33.7349,
+        "thermal_range": 9.197000000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00923998072159,
+                        40.71537912497735
+                    ],
+                    [
+                        -74.00805425155644,
+                        40.71536894123174
+                    ],
+                    [
+                        -74.00804115643567,
+                        40.71625114023948
+                    ],
+                    [
+                        -74.00922690124789,
+                        40.716261324300156
+                    ],
+                    [
+                        -74.00923998072159,
+                        40.71537912497735
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 63.76,
+        "maximum_heat_score": 63.76,
+        "thermal_range_score": 63.76,
+        "cooling_priority_score": 63.76,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 109,
+        "average_temperature": 30.0007,
+        "min_temperature": 24.5377,
+        "max_temperature": 33.7335,
+        "thermal_range": 9.195799999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00925305961599,
+                        40.71449692551581
+                    ],
+                    [
+                        -74.00806734609726,
+                        40.71448674208525
+                    ],
+                    [
+                        -74.00805425155644,
+                        40.71536894123174
+                    ],
+                    [
+                        -74.00923998072159,
+                        40.71537912497735
+                    ],
+                    [
+                        -74.00925305961599,
+                        40.71449692551581
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 63.09,
+        "maximum_heat_score": 63.09,
+        "thermal_range_score": 63.09,
+        "cooling_priority_score": 63.09,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 97,
+        "average_temperature": 29.9993,
+        "min_temperature": 24.5374,
+        "max_temperature": 33.7321,
+        "thermal_range": 9.194700000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00926613793114,
+                        40.71361472591552
+                    ],
+                    [
+                        -74.00808044005812,
+                        40.71360454280001
+                    ],
+                    [
+                        -74.00806734609726,
+                        40.71448674208525
+                    ],
+                    [
+                        -74.00925305961599,
+                        40.7144969255158
+                    ],
+                    [
+                        -74.00926613793114,
+                        40.71361472591552
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 62.42,
+        "maximum_heat_score": 62.42,
+        "thermal_range_score": 62.42,
+        "cooling_priority_score": 62.42,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 85,
+        "average_temperature": 29.9979,
+        "min_temperature": 24.5372,
+        "max_temperature": 33.7307,
+        "thermal_range": 9.1935,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00927921566705,
+                        40.7127325261765
+                    ],
+                    [
+                        -74.00809353343907,
+                        40.71272234337604
+                    ],
+                    [
+                        -74.00808044005812,
+                        40.713604542800006
+                    ],
+                    [
+                        -74.00926613793114,
+                        40.71361472591552
+                    ],
+                    [
+                        -74.00927921566705,
+                        40.7127325261765
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 61.74,
+        "maximum_heat_score": 61.74,
+        "thermal_range_score": 61.74,
+        "cooling_priority_score": 61.74,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 73,
+        "average_temperature": 29.9965,
+        "min_temperature": 24.537,
+        "max_temperature": 33.7293,
+        "thermal_range": 9.192300000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00929229282377,
+                        40.71185032629874
+                    ],
+                    [
+                        -74.0081066262401,
+                        40.711840143813305
+                    ],
+                    [
+                        -74.00809353343907,
+                        40.71272234337603
+                    ],
+                    [
+                        -74.00927921566705,
+                        40.71273252617649
+                    ],
+                    [
+                        -74.00929229282377,
+                        40.71185032629874
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 61.07,
+        "maximum_heat_score": 61.07,
+        "thermal_range_score": 61.07,
+        "cooling_priority_score": 61.07,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 61,
+        "average_temperature": 29.9951,
+        "min_temperature": 24.5368,
+        "max_temperature": 33.7279,
+        "thermal_range": 9.191099999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00930536940132,
+                        40.710968126282246
+                    ],
+                    [
+                        -74.00811971846127,
+                        40.71095794411185
+                    ],
+                    [
+                        -74.0081066262401,
+                        40.7118401438133
+                    ],
+                    [
+                        -74.00929229282377,
+                        40.71185032629874
+                    ],
+                    [
+                        -74.00930536940132,
+                        40.710968126282246
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 60.4,
+        "maximum_heat_score": 60.4,
+        "thermal_range_score": 60.4,
+        "cooling_priority_score": 60.4,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 50,
+        "average_temperature": 29.9937,
+        "min_temperature": 24.5367,
+        "max_temperature": 33.7265,
+        "thermal_range": 9.189800000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0093184453997,
+                        40.71008592612702
+                    ],
+                    [
+                        -74.00813281010261,
+                        40.710075744271634
+                    ],
+                    [
+                        -74.00811971846127,
+                        40.71095794411184
+                    ],
+                    [
+                        -74.00930536940132,
+                        40.71096812628224
+                    ],
+                    [
+                        -74.0093184453997,
+                        40.71008592612702
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 59.73,
+        "maximum_heat_score": 59.73,
+        "thermal_range_score": 59.73,
+        "cooling_priority_score": 59.73,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 39,
+        "average_temperature": 29.9924,
+        "min_temperature": 24.5366,
+        "max_temperature": 33.7252,
+        "thermal_range": 9.188600000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00933152081899,
+                        40.709203725833085
+                    ],
+                    [
+                        -74.00814590116414,
+                        40.709193544292695
+                    ],
+                    [
+                        -74.00813281010261,
+                        40.710075744271634
+                    ],
+                    [
+                        -74.0093184453997,
+                        40.71008592612702
+                    ],
+                    [
+                        -74.00933152081899,
+                        40.709203725833085
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 59.06,
+        "maximum_heat_score": 59.06,
+        "thermal_range_score": 59.06,
+        "cooling_priority_score": 59.06,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 28,
+        "average_temperature": 29.991,
+        "min_temperature": 24.5365,
+        "max_temperature": 33.7238,
+        "thermal_range": 9.187299999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00934459565919,
+                        40.7083215254004
+                    ],
+                    [
+                        -74.00815899164589,
+                        40.708311344175016
+                    ],
+                    [
+                        -74.00814590116414,
+                        40.70919354429268
+                    ],
+                    [
+                        -74.00933152081899,
+                        40.70920372583308
+                    ],
+                    [
+                        -74.00934459565919,
+                        40.7083215254004
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 58.39,
+        "maximum_heat_score": 58.39,
+        "thermal_range_score": 58.39,
+        "cooling_priority_score": 58.39,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 17,
+        "average_temperature": 29.9897,
+        "min_temperature": 24.5364,
+        "max_temperature": 33.7224,
+        "thermal_range": 9.186,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00935766992032,
+                        40.707439324828975
+                    ],
+                    [
+                        -74.0081720815479,
+                        40.70742914391858
+                    ],
+                    [
+                        -74.00815899164589,
+                        40.708311344175
+                    ],
+                    [
+                        -74.00934459565919,
+                        40.70832152540038
+                    ],
+                    [
+                        -74.00935766992032,
+                        40.707439324828975
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 57.72,
+        "maximum_heat_score": 57.72,
+        "thermal_range_score": 57.72,
+        "cooling_priority_score": 57.72,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 6,
+        "average_temperature": 29.9883,
+        "min_temperature": 24.5363,
+        "max_temperature": 33.7211,
+        "thermal_range": 9.1848,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.00937074360243,
+                        40.706557124118824
+                    ],
+                    [
+                        -74.00818517087018,
+                        40.70654694352341
+                    ],
+                    [
+                        -74.0081720815479,
+                        40.70742914391858
+                    ],
+                    [
+                        -74.00935766992032,
+                        40.70743932482897
+                    ],
+                    [
+                        -74.00937074360243,
+                        40.706557124118824
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 57.05,
+        "maximum_heat_score": 57.05,
+        "thermal_range_score": 57.05,
+        "cooling_priority_score": 57.05,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 144,
+        "average_temperature": 29.8942,
+        "min_temperature": 24.5269,
+        "max_temperature": 33.626,
+        "thermal_range": 9.099099999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01039958226083,
+                        40.71715369568204
+                    ],
+                    [
+                        -74.00921382119488,
+                        40.71714352348424
+                    ],
+                    [
+                        -74.0092007405625,
+                        40.718025722529575
+                    ],
+                    [
+                        -74.01038651727697,
+                        40.71803589504208
+                    ],
+                    [
+                        -74.01039958226083,
+                        40.71715369568204
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 56.38,
+        "maximum_heat_score": 56.38,
+        "thermal_range_score": 56.38,
+        "cooling_priority_score": 56.38,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 132,
+        "average_temperature": 29.8932,
+        "min_temperature": 24.5267,
+        "max_temperature": 33.6249,
+        "thermal_range": 9.098199999999995,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01041264666601,
+                        40.71627149618327
+                    ],
+                    [
+                        -74.00922690124789,
+                        40.71626132430016
+                    ],
+                    [
+                        -74.00921382119488,
+                        40.717143523484225
+                    ],
+                    [
+                        -74.01039958226083,
+                        40.717153695682036
+                    ],
+                    [
+                        -74.01041264666601,
+                        40.71627149618327
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 55.7,
+        "maximum_heat_score": 55.7,
+        "thermal_range_score": 55.7,
+        "cooling_priority_score": 55.7,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 120,
+        "average_temperature": 29.8921,
+        "min_temperature": 24.5266,
+        "max_temperature": 33.6239,
+        "thermal_range": 9.0973,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01042571049258,
+                        40.715389296545766
+                    ],
+                    [
+                        -74.00923998072159,
+                        40.71537912497735
+                    ],
+                    [
+                        -74.00922690124789,
+                        40.716261324300156
+                    ],
+                    [
+                        -74.01041264666601,
+                        40.71627149618325
+                    ],
+                    [
+                        -74.01042571049258,
+                        40.715389296545766
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 55.03,
+        "maximum_heat_score": 55.03,
+        "thermal_range_score": 55.03,
+        "cooling_priority_score": 55.03,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 108,
+        "average_temperature": 29.8911,
+        "min_temperature": 24.5264,
+        "max_temperature": 33.6228,
+        "thermal_range": 9.0964,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01043877374056,
+                        40.714507096769545
+                    ],
+                    [
+                        -74.00925305961599,
+                        40.71449692551581
+                    ],
+                    [
+                        -74.00923998072159,
+                        40.71537912497735
+                    ],
+                    [
+                        -74.01042571049258,
+                        40.715389296545766
+                    ],
+                    [
+                        -74.01043877374056,
+                        40.714507096769545
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 54.36,
+        "maximum_heat_score": 54.36,
+        "thermal_range_score": 54.36,
+        "cooling_priority_score": 54.36,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 96,
+        "average_temperature": 29.89,
+        "min_temperature": 24.5262,
+        "max_temperature": 33.6218,
+        "thermal_range": 9.095600000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01045183640996,
+                        40.71362489685458
+                    ],
+                    [
+                        -74.00926613793114,
+                        40.71361472591552
+                    ],
+                    [
+                        -74.00925305961599,
+                        40.7144969255158
+                    ],
+                    [
+                        -74.01043877374056,
+                        40.71450709676954
+                    ],
+                    [
+                        -74.01045183640996,
+                        40.71362489685458
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 53.69,
+        "maximum_heat_score": 53.69,
+        "thermal_range_score": 53.69,
+        "cooling_priority_score": 53.69,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 84,
+        "average_temperature": 29.889,
+        "min_temperature": 24.526,
+        "max_temperature": 33.6208,
+        "thermal_range": 9.094800000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01046489850084,
+                        40.71274269680089
+                    ],
+                    [
+                        -74.00927921566705,
+                        40.7127325261765
+                    ],
+                    [
+                        -74.00926613793114,
+                        40.71361472591552
+                    ],
+                    [
+                        -74.01045183640996,
+                        40.71362489685457
+                    ],
+                    [
+                        -74.01046489850084,
+                        40.71274269680089
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 53.02,
+        "maximum_heat_score": 53.02,
+        "thermal_range_score": 53.02,
+        "cooling_priority_score": 53.02,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 72,
+        "average_temperature": 29.888,
+        "min_temperature": 24.5259,
+        "max_temperature": 33.6197,
+        "thermal_range": 9.093800000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01047796001319,
+                        40.71186049660847
+                    ],
+                    [
+                        -74.00929229282377,
+                        40.71185032629874
+                    ],
+                    [
+                        -74.00927921566705,
+                        40.71273252617649
+                    ],
+                    [
+                        -74.01046489850084,
+                        40.71274269680087
+                    ],
+                    [
+                        -74.01047796001319,
+                        40.71186049660847
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 52.35,
+        "maximum_heat_score": 52.35,
+        "thermal_range_score": 52.35,
+        "cooling_priority_score": 52.35,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 60,
+        "average_temperature": 29.887,
+        "min_temperature": 24.5258,
+        "max_temperature": 33.6187,
+        "thermal_range": 9.092899999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01049102094707,
+                        40.71097829627733
+                    ],
+                    [
+                        -74.00930536940132,
+                        40.710968126282246
+                    ],
+                    [
+                        -74.00929229282377,
+                        40.71185032629874
+                    ],
+                    [
+                        -74.01047796001319,
+                        40.711860496608466
+                    ],
+                    [
+                        -74.01049102094707,
+                        40.71097829627733
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 51.68,
+        "maximum_heat_score": 51.68,
+        "thermal_range_score": 51.68,
+        "cooling_priority_score": 51.68,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 49,
+        "average_temperature": 29.8859,
+        "min_temperature": 24.5257,
+        "max_temperature": 33.6177,
+        "thermal_range": 9.091999999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0105040813025,
+                        40.710096095807465
+                    ],
+                    [
+                        -74.0093184453997,
+                        40.71008592612702
+                    ],
+                    [
+                        -74.00930536940132,
+                        40.71096812628224
+                    ],
+                    [
+                        -74.01049102094707,
+                        40.71097829627733
+                    ],
+                    [
+                        -74.0105040813025,
+                        40.710096095807465
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 51.01,
+        "maximum_heat_score": 51.01,
+        "thermal_range_score": 51.01,
+        "cooling_priority_score": 51.01,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 38,
+        "average_temperature": 29.8849,
+        "min_temperature": 24.5256,
+        "max_temperature": 33.6167,
+        "thermal_range": 9.0911,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01051714107949,
+                        40.709213895198886
+                    ],
+                    [
+                        -74.00933152081899,
+                        40.709203725833085
+                    ],
+                    [
+                        -74.0093184453997,
+                        40.71008592612702
+                    ],
+                    [
+                        -74.0105040813025,
+                        40.710096095807465
+                    ],
+                    [
+                        -74.01051714107949,
+                        40.709213895198886
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 50.34,
+        "maximum_heat_score": 50.34,
+        "thermal_range_score": 50.34,
+        "cooling_priority_score": 50.34,
+        "priority_label": "High Priority"
+    },
+    {
+        "tile_id": 27,
+        "average_temperature": 29.8839,
+        "min_temperature": 24.5256,
+        "max_temperature": 33.6157,
+        "thermal_range": 9.090099999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0105302002781,
+                        40.70833169445158
+                    ],
+                    [
+                        -74.00934459565919,
+                        40.7083215254004
+                    ],
+                    [
+                        -74.00933152081899,
+                        40.70920372583308
+                    ],
+                    [
+                        -74.01051714107949,
+                        40.70921389519888
+                    ],
+                    [
+                        -74.0105302002781,
+                        40.70833169445158
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 49.66,
+        "maximum_heat_score": 49.66,
+        "thermal_range_score": 49.66,
+        "cooling_priority_score": 49.66,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 16,
+        "average_temperature": 29.8829,
+        "min_temperature": 24.5255,
+        "max_temperature": 33.6147,
+        "thermal_range": 9.089199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01054325889835,
+                        40.70744949356554
+                    ],
+                    [
+                        -74.00935766992032,
+                        40.707439324828975
+                    ],
+                    [
+                        -74.00934459565919,
+                        40.70832152540038
+                    ],
+                    [
+                        -74.0105302002781,
+                        40.708331694451566
+                    ],
+                    [
+                        -74.01054325889835,
+                        40.70744949356554
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 48.99,
+        "maximum_heat_score": 48.99,
+        "thermal_range_score": 48.99,
+        "cooling_priority_score": 48.99,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 5,
+        "average_temperature": 29.882,
+        "min_temperature": 24.5255,
+        "max_temperature": 33.6137,
+        "thermal_range": 9.0882,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01055631694025,
+                        40.70656729254078
+                    ],
+                    [
+                        -74.00937074360243,
+                        40.706557124118824
+                    ],
+                    [
+                        -74.00935766992032,
+                        40.70743932482897
+                    ],
+                    [
+                        -74.01054325889835,
+                        40.707449493565534
+                    ],
+                    [
+                        -74.01055631694025,
+                        40.70656729254078
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 48.32,
+        "maximum_heat_score": 48.32,
+        "thermal_range_score": 48.32,
+        "cooling_priority_score": 48.32,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 143,
+        "average_temperature": 29.8159,
+        "min_temperature": 24.5188,
+        "max_temperature": 33.5469,
+        "thermal_range": 9.028100000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01158534393198,
+                        40.71716385570186
+                    ],
+                    [
+                        -74.01039958226083,
+                        40.71715369568204
+                    ],
+                    [
+                        -74.01038651727697,
+                        40.71803589504208
+                    ],
+                    [
+                        -74.01157229459668,
+                        40.718046055376234
+                    ],
+                    [
+                        -74.01158534393198,
+                        40.71716385570186
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 47.65,
+        "maximum_heat_score": 47.65,
+        "thermal_range_score": 47.65,
+        "cooling_priority_score": 47.65,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 131,
+        "average_temperature": 29.8152,
+        "min_temperature": 24.5187,
+        "max_temperature": 33.5462,
+        "thermal_range": 9.0275,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01159839268934,
+                        40.71628165588876
+                    ],
+                    [
+                        -74.01041264666601,
+                        40.71627149618327
+                    ],
+                    [
+                        -74.01039958226083,
+                        40.717153695682036
+                    ],
+                    [
+                        -74.01158534393198,
+                        40.71716385570185
+                    ],
+                    [
+                        -74.01159839268934,
+                        40.71628165588876
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 46.98,
+        "maximum_heat_score": 46.98,
+        "thermal_range_score": 46.98,
+        "cooling_priority_score": 46.98,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 119,
+        "average_temperature": 29.8145,
+        "min_temperature": 24.5186,
+        "max_temperature": 33.5455,
+        "thermal_range": 9.026899999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01161144086875,
+                        40.71539945593695
+                    ],
+                    [
+                        -74.01042571049258,
+                        40.715389296545766
+                    ],
+                    [
+                        -74.01041264666601,
+                        40.71627149618325
+                    ],
+                    [
+                        -74.01159839268934,
+                        40.71628165588875
+                    ],
+                    [
+                        -74.01161144086875,
+                        40.71539945593695
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 46.31,
+        "maximum_heat_score": 46.31,
+        "thermal_range_score": 46.31,
+        "cooling_priority_score": 46.31,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 107,
+        "average_temperature": 29.8138,
+        "min_temperature": 24.5184,
+        "max_temperature": 33.5448,
+        "thermal_range": 9.026400000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01162448847025,
+                        40.714517255846424
+                    ],
+                    [
+                        -74.01043877374056,
+                        40.714507096769545
+                    ],
+                    [
+                        -74.01042571049258,
+                        40.715389296545766
+                    ],
+                    [
+                        -74.01161144086875,
+                        40.71539945593695
+                    ],
+                    [
+                        -74.01162448847025,
+                        40.714517255846424
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 45.64,
+        "maximum_heat_score": 45.64,
+        "thermal_range_score": 45.64,
+        "cooling_priority_score": 45.64,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 95,
+        "average_temperature": 29.8131,
+        "min_temperature": 24.5183,
+        "max_temperature": 33.5441,
+        "thermal_range": 9.0258,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01163753549388,
+                        40.71363505561716
+                    ],
+                    [
+                        -74.01045183640996,
+                        40.71362489685458
+                    ],
+                    [
+                        -74.01043877374056,
+                        40.71450709676954
+                    ],
+                    [
+                        -74.01162448847025,
+                        40.71451725584641
+                    ],
+                    [
+                        -74.01163753549388,
+                        40.71363505561716
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 44.97,
+        "maximum_heat_score": 44.97,
+        "thermal_range_score": 44.97,
+        "cooling_priority_score": 44.97,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 83,
+        "average_temperature": 29.8124,
+        "min_temperature": 24.5182,
+        "max_temperature": 33.5434,
+        "thermal_range": 9.025199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01165058193966,
+                        40.712752855249185
+                    ],
+                    [
+                        -74.01046489850083,
+                        40.71274269680089
+                    ],
+                    [
+                        -74.01045183640996,
+                        40.71362489685457
+                    ],
+                    [
+                        -74.01163753549388,
+                        40.71363505561715
+                    ],
+                    [
+                        -74.01165058193966,
+                        40.712752855249185
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 44.3,
+        "maximum_heat_score": 44.3,
+        "thermal_range_score": 44.3,
+        "cooling_priority_score": 44.3,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 71,
+        "average_temperature": 29.8117,
+        "min_temperature": 24.5181,
+        "max_temperature": 33.5428,
+        "thermal_range": 9.0247,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01166362780762,
+                        40.711870654742484
+                    ],
+                    [
+                        -74.01047796001319,
+                        40.71186049660847
+                    ],
+                    [
+                        -74.01046489850083,
+                        40.71274269680087
+                    ],
+                    [
+                        -74.01165058193966,
+                        40.71275285524917
+                    ],
+                    [
+                        -74.01166362780762,
+                        40.711870654742484
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 43.62,
+        "maximum_heat_score": 43.62,
+        "thermal_range_score": 43.62,
+        "cooling_priority_score": 43.62,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 59,
+        "average_temperature": 29.8111,
+        "min_temperature": 24.518,
+        "max_temperature": 33.5421,
+        "thermal_range": 9.024099999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01167667309781,
+                        40.71098845409707
+                    ],
+                    [
+                        -74.01049102094707,
+                        40.71097829627733
+                    ],
+                    [
+                        -74.01047796001319,
+                        40.711860496608466
+                    ],
+                    [
+                        -74.01166362780762,
+                        40.71187065474248
+                    ],
+                    [
+                        -74.01167667309781,
+                        40.71098845409707
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 42.95,
+        "maximum_heat_score": 42.95,
+        "thermal_range_score": 42.95,
+        "cooling_priority_score": 42.95,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 48,
+        "average_temperature": 29.8104,
+        "min_temperature": 24.518,
+        "max_temperature": 33.5414,
+        "thermal_range": 9.023400000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01168971781024,
+                        40.710106253312944
+                    ],
+                    [
+                        -74.01050408130249,
+                        40.710096095807465
+                    ],
+                    [
+                        -74.01049102094707,
+                        40.71097829627733
+                    ],
+                    [
+                        -74.01167667309781,
+                        40.71098845409707
+                    ],
+                    [
+                        -74.01168971781024,
+                        40.710106253312944
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 42.28,
+        "maximum_heat_score": 42.28,
+        "thermal_range_score": 42.28,
+        "cooling_priority_score": 42.28,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 37,
+        "average_temperature": 29.8097,
+        "min_temperature": 24.5179,
+        "max_temperature": 33.5407,
+        "thermal_range": 9.0228,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01170276194493,
+                        40.709224052390105
+                    ],
+                    [
+                        -74.01051714107949,
+                        40.709213895198886
+                    ],
+                    [
+                        -74.01050408130249,
+                        40.710096095807465
+                    ],
+                    [
+                        -74.01168971781024,
+                        40.710106253312944
+                    ],
+                    [
+                        -74.01170276194493,
+                        40.709224052390105
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 41.61,
+        "maximum_heat_score": 41.61,
+        "thermal_range_score": 41.61,
+        "cooling_priority_score": 41.61,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 26,
+        "average_temperature": 29.8091,
+        "min_temperature": 24.5179,
+        "max_temperature": 33.5401,
+        "thermal_range": 9.022200000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01171580550192,
+                        40.708341851328555
+                    ],
+                    [
+                        -74.0105302002781,
+                        40.70833169445158
+                    ],
+                    [
+                        -74.01051714107949,
+                        40.70921389519888
+                    ],
+                    [
+                        -74.01170276194493,
+                        40.7092240523901
+                    ],
+                    [
+                        -74.01171580550192,
+                        40.708341851328555
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 40.94,
+        "maximum_heat_score": 40.94,
+        "thermal_range_score": 40.94,
+        "cooling_priority_score": 40.94,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 15,
+        "average_temperature": 29.8084,
+        "min_temperature": 24.5179,
+        "max_temperature": 33.5394,
+        "thermal_range": 9.0215,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01172884848124,
+                        40.70745965012828
+                    ],
+                    [
+                        -74.01054325889835,
+                        40.70744949356554
+                    ],
+                    [
+                        -74.0105302002781,
+                        40.708331694451566
+                    ],
+                    [
+                        -74.01171580550192,
+                        40.70834185132854
+                    ],
+                    [
+                        -74.01172884848124,
+                        40.70745965012828
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 40.27,
+        "maximum_heat_score": 40.27,
+        "thermal_range_score": 40.27,
+        "cooling_priority_score": 40.27,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 4,
+        "average_temperature": 29.8078,
+        "min_temperature": 24.5179,
+        "max_temperature": 33.5387,
+        "thermal_range": 9.020799999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01174189088292,
+                        40.7065774487893
+                    ],
+                    [
+                        -74.01055631694025,
+                        40.70656729254078
+                    ],
+                    [
+                        -74.01054325889835,
+                        40.707449493565534
+                    ],
+                    [
+                        -74.01172884848124,
+                        40.70745965012827
+                    ],
+                    [
+                        -74.01174189088292,
+                        40.7065774487893
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 39.6,
+        "maximum_heat_score": 39.6,
+        "thermal_range_score": 39.6,
+        "cooling_priority_score": 39.6,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 66,
+        "average_temperature": 29.7913,
+        "min_temperature": 24.516,
+        "max_temperature": 33.5222,
+        "thermal_range": 9.0062,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01759197582992,
+                        40.711921262776144
+                    ],
+                    [
+                        -74.0164063050212,
+                        40.71191116552099
+                    ],
+                    [
+                        -74.01639332173109,
+                        40.71279336728104
+                    ],
+                    [
+                        -74.01757900818434,
+                        40.71280346484859
+                    ],
+                    [
+                        -74.01759197582992,
+                        40.711921262776144
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 38.93,
+        "maximum_heat_score": 38.93,
+        "thermal_range_score": 38.93,
+        "cooling_priority_score": 38.93,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 78,
+        "average_temperature": 29.7909,
+        "min_temperature": 24.5159,
+        "max_temperature": 33.5218,
+        "thermal_range": 9.0059,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01757900818434,
+                        40.712803464848605
+                    ],
+                    [
+                        -74.01639332173109,
+                        40.71279336728105
+                    ],
+                    [
+                        -74.01638033786593,
+                        40.71367556890241
+                    ],
+                    [
+                        -74.01756603996441,
+                        40.713685666782375
+                    ],
+                    [
+                        -74.01757900818434,
+                        40.712803464848605
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 38.26,
+        "maximum_heat_score": 38.26,
+        "thermal_range_score": 38.26,
+        "cooling_priority_score": 38.26,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 90,
+        "average_temperature": 29.7905,
+        "min_temperature": 24.5158,
+        "max_temperature": 33.5213,
+        "thermal_range": 9.005499999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01756603996441,
+                        40.713685666782375
+                    ],
+                    [
+                        -74.01638033786593,
+                        40.71367556890242
+                    ],
+                    [
+                        -74.01636735342568,
+                        40.714557770385085
+                    ],
+                    [
+                        -74.01755307117008,
+                        40.714567868577454
+                    ],
+                    [
+                        -74.01756603996441,
+                        40.713685666782375
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 37.58,
+        "maximum_heat_score": 37.58,
+        "thermal_range_score": 37.58,
+        "cooling_priority_score": 37.58,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 102,
+        "average_temperature": 29.7901,
+        "min_temperature": 24.5158,
+        "max_temperature": 33.5209,
+        "thermal_range": 9.005099999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01755307117008,
+                        40.71456786857747
+                    ],
+                    [
+                        -74.01636735342568,
+                        40.71455777038509
+                    ],
+                    [
+                        -74.01635436841033,
+                        40.71543997172908
+                    ],
+                    [
+                        -74.01754010180137,
+                        40.71545007023388
+                    ],
+                    [
+                        -74.01755307117008,
+                        40.71456786857747
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 36.91,
+        "maximum_heat_score": 36.91,
+        "thermal_range_score": 36.91,
+        "cooling_priority_score": 36.91,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 114,
+        "average_temperature": 29.7897,
+        "min_temperature": 24.5158,
+        "max_temperature": 33.5205,
+        "thermal_range": 9.0047,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01754010180137,
+                        40.71545007023388
+                    ],
+                    [
+                        -74.01635436841033,
+                        40.71543997172908
+                    ],
+                    [
+                        -74.01634138281987,
+                        40.71632217293437
+                    ],
+                    [
+                        -74.0175271318582,
+                        40.7163322717516
+                    ],
+                    [
+                        -74.01754010180137,
+                        40.71545007023388
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 36.24,
+        "maximum_heat_score": 36.24,
+        "thermal_range_score": 36.24,
+        "cooling_priority_score": 36.24,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 126,
+        "average_temperature": 29.7893,
+        "min_temperature": 24.5158,
+        "max_temperature": 33.5201,
+        "thermal_range": 9.0043,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0175271318582,
+                        40.716332271751604
+                    ],
+                    [
+                        -74.01634138281987,
+                        40.716322172934376
+                    ],
+                    [
+                        -74.01632839665423,
+                        40.717204374000985
+                    ],
+                    [
+                        -74.01751416134056,
+                        40.71721447313065
+                    ],
+                    [
+                        -74.0175271318582,
+                        40.716332271751604
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 35.57,
+        "maximum_heat_score": 35.57,
+        "thermal_range_score": 35.57,
+        "cooling_priority_score": 35.57,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 138,
+        "average_temperature": 29.7889,
+        "min_temperature": 24.5158,
+        "max_temperature": 33.5197,
+        "thermal_range": 9.003900000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01751416134056,
+                        40.71721447313066
+                    ],
+                    [
+                        -74.01632839665423,
+                        40.717204374001
+                    ],
+                    [
+                        -74.0163154099134,
+                        40.718086574928925
+                    ],
+                    [
+                        -74.01750119024844,
+                        40.71809667437103
+                    ],
+                    [
+                        -74.01751416134056,
+                        40.71721447313066
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 34.9,
+        "maximum_heat_score": 34.9,
+        "thermal_range_score": 34.9,
+        "cooling_priority_score": 34.9,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 142,
+        "average_temperature": 29.7668,
+        "min_temperature": 24.5138,
+        "max_temperature": 33.4973,
+        "thermal_range": 8.983500000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01277110620764,
+                        40.71717400354369
+                    ],
+                    [
+                        -74.01158534393198,
+                        40.71716385570186
+                    ],
+                    [
+                        -74.01157229459668,
+                        40.718046055376234
+                    ],
+                    [
+                        -74.0127580725209,
+                        40.71805620353201
+                    ],
+                    [
+                        -74.01277110620764,
+                        40.71717400354369
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 34.23,
+        "maximum_heat_score": 34.23,
+        "thermal_range_score": 34.23,
+        "cooling_priority_score": 34.23,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 130,
+        "average_temperature": 29.7664,
+        "min_temperature": 24.5137,
+        "max_temperature": 33.4969,
+        "thermal_range": 8.983199999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01278413931709,
+                        40.71629180341664
+                    ],
+                    [
+                        -74.01159839268934,
+                        40.71628165588876
+                    ],
+                    [
+                        -74.01158534393198,
+                        40.71716385570185
+                    ],
+                    [
+                        -74.01277110620764,
+                        40.71717400354368
+                    ],
+                    [
+                        -74.01278413931709,
+                        40.71629180341664
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 33.56,
+        "maximum_heat_score": 33.56,
+        "thermal_range_score": 33.56,
+        "cooling_priority_score": 33.56,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 118,
+        "average_temperature": 29.766,
+        "min_temperature": 24.5136,
+        "max_temperature": 33.4966,
+        "thermal_range": 8.983,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01279717184931,
+                        40.71540960315089
+                    ],
+                    [
+                        -74.01161144086875,
+                        40.71539945593695
+                    ],
+                    [
+                        -74.01159839268934,
+                        40.71628165588875
+                    ],
+                    [
+                        -74.01278413931709,
+                        40.71629180341663
+                    ],
+                    [
+                        -74.01279717184931,
+                        40.71540960315089
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 32.89,
+        "maximum_heat_score": 32.89,
+        "thermal_range_score": 32.89,
+        "cooling_priority_score": 32.89,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 106,
+        "average_temperature": 29.7656,
+        "min_temperature": 24.5135,
+        "max_temperature": 33.4962,
+        "thermal_range": 8.982700000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01281020380432,
+                        40.714527402746434
+                    ],
+                    [
+                        -74.01162448847025,
+                        40.714517255846424
+                    ],
+                    [
+                        -74.01161144086875,
+                        40.71539945593695
+                    ],
+                    [
+                        -74.01279717184931,
+                        40.71540960315089
+                    ],
+                    [
+                        -74.01281020380432,
+                        40.714527402746434
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 32.21,
+        "maximum_heat_score": 32.21,
+        "thermal_range_score": 32.21,
+        "cooling_priority_score": 32.21,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 94,
+        "average_temperature": 29.7652,
+        "min_temperature": 24.5134,
+        "max_temperature": 33.4958,
+        "thermal_range": 8.982400000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01282323518215,
+                        40.71364520220325
+                    ],
+                    [
+                        -74.01163753549388,
+                        40.71363505561716
+                    ],
+                    [
+                        -74.01162448847025,
+                        40.71451725584641
+                    ],
+                    [
+                        -74.01281020380432,
+                        40.71452740274642
+                    ],
+                    [
+                        -74.01282323518215,
+                        40.71364520220325
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 31.54,
+        "maximum_heat_score": 31.54,
+        "thermal_range_score": 31.54,
+        "cooling_priority_score": 31.54,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 82,
+        "average_temperature": 29.7648,
+        "min_temperature": 24.5133,
+        "max_temperature": 33.4954,
+        "thermal_range": 8.982099999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01283626598284,
+                        40.71276300152137
+                    ],
+                    [
+                        -74.01165058193966,
+                        40.712752855249185
+                    ],
+                    [
+                        -74.01163753549388,
+                        40.71363505561715
+                    ],
+                    [
+                        -74.01282323518215,
+                        40.713645202203246
+                    ],
+                    [
+                        -74.01283626598284,
+                        40.71276300152137
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 30.87,
+        "maximum_heat_score": 30.87,
+        "thermal_range_score": 30.87,
+        "cooling_priority_score": 30.87,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 70,
+        "average_temperature": 29.7644,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.495,
+        "thermal_range": 8.981799999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01284929620637,
+                        40.711880800700754
+                    ],
+                    [
+                        -74.01166362780762,
+                        40.711870654742484
+                    ],
+                    [
+                        -74.01165058193966,
+                        40.71275285524917
+                    ],
+                    [
+                        -74.01283626598284,
+                        40.71276300152136
+                    ],
+                    [
+                        -74.01284929620637,
+                        40.711880800700754
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 30.2,
+        "maximum_heat_score": 30.2,
+        "thermal_range_score": 30.2,
+        "cooling_priority_score": 30.2,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 58,
+        "average_temperature": 29.7641,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4946,
+        "thermal_range": 8.981399999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01286232585284,
+                        40.71099859974145
+                    ],
+                    [
+                        -74.01167667309781,
+                        40.71098845409707
+                    ],
+                    [
+                        -74.01166362780762,
+                        40.71187065474248
+                    ],
+                    [
+                        -74.01284929620637,
+                        40.711880800700754
+                    ],
+                    [
+                        -74.01286232585284,
+                        40.71099859974145
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 29.53,
+        "maximum_heat_score": 29.53,
+        "thermal_range_score": 29.53,
+        "cooling_priority_score": 29.53,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 47,
+        "average_temperature": 29.7637,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4943,
+        "thermal_range": 8.981100000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01287535492223,
+                        40.71011639864344
+                    ],
+                    [
+                        -74.01168971781024,
+                        40.710106253312944
+                    ],
+                    [
+                        -74.01167667309781,
+                        40.71098845409707
+                    ],
+                    [
+                        -74.01286232585284,
+                        40.71099859974145
+                    ],
+                    [
+                        -74.01287535492223,
+                        40.71011639864344
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 28.86,
+        "maximum_heat_score": 28.86,
+        "thermal_range_score": 28.86,
+        "cooling_priority_score": 28.86,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 36,
+        "average_temperature": 29.7633,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4939,
+        "thermal_range": 8.980699999999995,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01288838341458,
+                        40.70923419740672
+                    ],
+                    [
+                        -74.01170276194493,
+                        40.709224052390105
+                    ],
+                    [
+                        -74.01168971781024,
+                        40.710106253312944
+                    ],
+                    [
+                        -74.01287535492223,
+                        40.71011639864344
+                    ],
+                    [
+                        -74.01288838341458,
+                        40.70923419740672
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 28.19,
+        "maximum_heat_score": 28.19,
+        "thermal_range_score": 28.19,
+        "cooling_priority_score": 28.19,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 25,
+        "average_temperature": 29.763,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4935,
+        "thermal_range": 8.980299999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01290141132992,
+                        40.7083519960313
+                    ],
+                    [
+                        -74.01171580550192,
+                        40.708341851328555
+                    ],
+                    [
+                        -74.01170276194493,
+                        40.7092240523901
+                    ],
+                    [
+                        -74.01288838341458,
+                        40.709234197406715
+                    ],
+                    [
+                        -74.01290141132992,
+                        40.7083519960313
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 27.52,
+        "maximum_heat_score": 27.52,
+        "thermal_range_score": 27.52,
+        "cooling_priority_score": 27.52,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 14,
+        "average_temperature": 29.7626,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4932,
+        "thermal_range": 8.98,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01291443866828,
+                        40.70746979451716
+                    ],
+                    [
+                        -74.01172884848124,
+                        40.70745965012828
+                    ],
+                    [
+                        -74.01171580550192,
+                        40.70834185132854
+                    ],
+                    [
+                        -74.01290141132992,
+                        40.70835199603128
+                    ],
+                    [
+                        -74.01291443866828,
+                        40.70746979451716
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 26.85,
+        "maximum_heat_score": 26.85,
+        "thermal_range_score": 26.85,
+        "cooling_priority_score": 26.85,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 3,
+        "average_temperature": 29.7623,
+        "min_temperature": 24.5132,
+        "max_temperature": 33.4928,
+        "thermal_range": 8.979600000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0129274654297,
+                        40.70658759286432
+                    ],
+                    [
+                        -74.01174189088292,
+                        40.7065774487893
+                    ],
+                    [
+                        -74.01172884848124,
+                        40.70745965012827
+                    ],
+                    [
+                        -74.01291443866828,
+                        40.70746979451715
+                    ],
+                    [
+                        -74.0129274654297,
+                        40.70658759286432
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 26.17,
+        "maximum_heat_score": 26.17,
+        "thermal_range_score": 26.17,
+        "cooling_priority_score": 26.17,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 0,
+        "average_temperature": 29.7613,
+        "min_temperature": 24.5131,
+        "max_temperature": 33.4918,
+        "thermal_range": 8.978699999999996,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01648419268754,
+                        40.70661795204835
+                    ],
+                    [
+                        -74.01529861633273,
+                        40.70660784449386
+                    ],
+                    [
+                        -74.01528562085194,
+                        40.70749004677328
+                    ],
+                    [
+                        -74.0164712128471,
+                        40.707500154640485
+                    ],
+                    [
+                        -74.01648419268754,
+                        40.70661795204835
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 25.5,
+        "maximum_heat_score": 25.5,
+        "thermal_range_score": 25.5,
+        "cooling_priority_score": 25.5,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "tile_id": 11,
+        "average_temperature": 29.761,
+        "min_temperature": 24.5131,
+        "max_temperature": 33.4915,
+        "thermal_range": 8.9784,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0164712128471,
+                        40.7075001546405
+                    ],
+                    [
+                        -74.01528562085194,
+                        40.70749004677329
+                    ],
+                    [
+                        -74.01527262479557,
+                        40.70837224891401
+                    ],
+                    [
+                        -74.01645823243179,
+                        40.708382357093946
+                    ],
+                    [
+                        -74.0164712128471,
+                        40.7075001546405
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 24.83,
+        "maximum_heat_score": 24.83,
+        "thermal_range_score": 24.83,
+        "cooling_priority_score": 24.83,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 22,
+        "average_temperature": 29.7607,
+        "min_temperature": 24.513,
+        "max_temperature": 33.4912,
+        "thermal_range": 8.978199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01645823243177,
+                        40.70838235709396
+                    ],
+                    [
+                        -74.01527262479557,
+                        40.708372248914024
+                    ],
+                    [
+                        -74.01525962816362,
+                        40.709254450916056
+                    ],
+                    [
+                        -74.01644525144157,
+                        40.709264559408744
+                    ],
+                    [
+                        -74.01645823243177,
+                        40.70838235709396
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 24.16,
+        "maximum_heat_score": 24.16,
+        "thermal_range_score": 24.16,
+        "cooling_priority_score": 24.16,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 33,
+        "average_temperature": 29.7604,
+        "min_temperature": 24.5129,
+        "max_temperature": 33.491,
+        "thermal_range": 8.978100000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01644525144157,
+                        40.709264559408744
+                    ],
+                    [
+                        -74.01525962816362,
+                        40.70925445091606
+                    ],
+                    [
+                        -74.01524663095604,
+                        40.710136652779404
+                    ],
+                    [
+                        -74.0164322698764,
+                        40.71014676158484
+                    ],
+                    [
+                        -74.01644525144157,
+                        40.709264559408744
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 23.49,
+        "maximum_heat_score": 23.49,
+        "thermal_range_score": 23.49,
+        "cooling_priority_score": 23.49,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 44,
+        "average_temperature": 29.7601,
+        "min_temperature": 24.5128,
+        "max_temperature": 33.4907,
+        "thermal_range": 8.977899999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0164322698764,
+                        40.71014676158484
+                    ],
+                    [
+                        -74.01524663095604,
+                        40.710136652779404
+                    ],
+                    [
+                        -74.0152336331728,
+                        40.71101885450406
+                    ],
+                    [
+                        -74.0164192877363,
+                        40.711028963622255
+                    ],
+                    [
+                        -74.0164322698764,
+                        40.71014676158484
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 22.82,
+        "maximum_heat_score": 22.82,
+        "thermal_range_score": 22.82,
+        "cooling_priority_score": 22.82,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 55,
+        "average_temperature": 29.7598,
+        "min_temperature": 24.5128,
+        "max_temperature": 33.4904,
+        "thermal_range": 8.977600000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0164192877363,
+                        40.71102896362226
+                    ],
+                    [
+                        -74.0152336331728,
+                        40.71101885450407
+                    ],
+                    [
+                        -74.01522063481389,
+                        40.71190105609003
+                    ],
+                    [
+                        -74.0164063050212,
+                        40.71191116552099
+                    ],
+                    [
+                        -74.0164192877363,
+                        40.71102896362226
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 22.15,
+        "maximum_heat_score": 22.15,
+        "thermal_range_score": 22.15,
+        "cooling_priority_score": 22.15,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 67,
+        "average_temperature": 29.7596,
+        "min_temperature": 24.5127,
+        "max_temperature": 33.4901,
+        "thermal_range": 8.9774,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0164063050212,
+                        40.71191116552099
+                    ],
+                    [
+                        -74.01522063481389,
+                        40.71190105609004
+                    ],
+                    [
+                        -74.01520763587926,
+                        40.7127832575373
+                    ],
+                    [
+                        -74.01639332173109,
+                        40.71279336728104
+                    ],
+                    [
+                        -74.0164063050212,
+                        40.71191116552099
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 21.48,
+        "maximum_heat_score": 21.48,
+        "thermal_range_score": 21.48,
+        "cooling_priority_score": 21.48,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 79,
+        "average_temperature": 29.7593,
+        "min_temperature": 24.5127,
+        "max_temperature": 33.4898,
+        "thermal_range": 8.977100000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01639332173109,
+                        40.71279336728105
+                    ],
+                    [
+                        -74.01520763587926,
+                        40.71278325753732
+                    ],
+                    [
+                        -74.0151946363689,
+                        40.713665458845895
+                    ],
+                    [
+                        -74.01638033786593,
+                        40.71367556890241
+                    ],
+                    [
+                        -74.01639332173109,
+                        40.71279336728105
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 20.81,
+        "maximum_heat_score": 20.81,
+        "thermal_range_score": 20.81,
+        "cooling_priority_score": 20.81,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 91,
+        "average_temperature": 29.759,
+        "min_temperature": 24.5126,
+        "max_temperature": 33.4896,
+        "thermal_range": 8.977000000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01638033786593,
+                        40.71367556890242
+                    ],
+                    [
+                        -74.0151946363689,
+                        40.713665458845895
+                    ],
+                    [
+                        -74.01518163628276,
+                        40.714547660015775
+                    ],
+                    [
+                        -74.01636735342568,
+                        40.714557770385085
+                    ],
+                    [
+                        -74.01638033786593,
+                        40.71367556890242
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 20.13,
+        "maximum_heat_score": 20.13,
+        "thermal_range_score": 20.13,
+        "cooling_priority_score": 20.13,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 103,
+        "average_temperature": 29.7588,
+        "min_temperature": 24.5126,
+        "max_temperature": 33.4893,
+        "thermal_range": 8.976700000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01636735342568,
+                        40.71455777038509
+                    ],
+                    [
+                        -74.01518163628276,
+                        40.71454766001579
+                    ],
+                    [
+                        -74.01516863562084,
+                        40.71542986104697
+                    ],
+                    [
+                        -74.01635436841033,
+                        40.71543997172908
+                    ],
+                    [
+                        -74.01636735342568,
+                        40.71455777038509
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 19.46,
+        "maximum_heat_score": 19.46,
+        "thermal_range_score": 19.46,
+        "cooling_priority_score": 19.46,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 115,
+        "average_temperature": 29.7585,
+        "min_temperature": 24.5126,
+        "max_temperature": 33.489,
+        "thermal_range": 8.976399999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01635436841033,
+                        40.71543997172908
+                    ],
+                    [
+                        -74.01516863562084,
+                        40.71542986104697
+                    ],
+                    [
+                        -74.01515563438308,
+                        40.71631206193946
+                    ],
+                    [
+                        -74.01634138281987,
+                        40.71632217293437
+                    ],
+                    [
+                        -74.01635436841033,
+                        40.71543997172908
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 18.79,
+        "maximum_heat_score": 18.79,
+        "thermal_range_score": 18.79,
+        "cooling_priority_score": 18.79,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 127,
+        "average_temperature": 29.7583,
+        "min_temperature": 24.5127,
+        "max_temperature": 33.4887,
+        "thermal_range": 8.976000000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01634138281987,
+                        40.716322172934376
+                    ],
+                    [
+                        -74.01515563438308,
+                        40.71631206193947
+                    ],
+                    [
+                        -74.01514263256948,
+                        40.71719426269326
+                    ],
+                    [
+                        -74.01632839665423,
+                        40.717204374000985
+                    ],
+                    [
+                        -74.01634138281987,
+                        40.716322172934376
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 18.12,
+        "maximum_heat_score": 18.12,
+        "thermal_range_score": 18.12,
+        "cooling_priority_score": 18.12,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 139,
+        "average_temperature": 29.758,
+        "min_temperature": 24.5127,
+        "max_temperature": 33.4885,
+        "thermal_range": 8.975800000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01632839665423,
+                        40.717204374001
+                    ],
+                    [
+                        -74.01514263256948,
+                        40.717194262693276
+                    ],
+                    [
+                        -74.01512963017998,
+                        40.718076463308364
+                    ],
+                    [
+                        -74.0163154099134,
+                        40.718086574928925
+                    ],
+                    [
+                        -74.01632839665423,
+                        40.717204374001
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 17.45,
+        "maximum_heat_score": 17.45,
+        "thermal_range_score": 17.45,
+        "cooling_priority_score": 17.45,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 141,
+        "average_temperature": 29.7433,
+        "min_temperature": 24.5113,
+        "max_temperature": 33.4736,
+        "thermal_range": 8.962299999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01395686908704,
+                        40.7171841392075
+                    ],
+                    [
+                        -74.01277110620764,
+                        40.71717400354369
+                    ],
+                    [
+                        -74.0127580725209,
+                        40.71805620353201
+                    ],
+                    [
+                        -74.01394385104891,
+                        40.71806633950939
+                    ],
+                    [
+                        -74.01395686908704,
+                        40.7171841392075
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 16.78,
+        "maximum_heat_score": 16.78,
+        "thermal_range_score": 16.78,
+        "cooling_priority_score": 16.78,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 129,
+        "average_temperature": 29.7431,
+        "min_temperature": 24.5112,
+        "max_temperature": 33.4734,
+        "thermal_range": 8.9622,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01396988654858,
+                        40.71630193876688
+                    ],
+                    [
+                        -74.01278413931709,
+                        40.71629180341664
+                    ],
+                    [
+                        -74.01277110620764,
+                        40.71717400354368
+                    ],
+                    [
+                        -74.01395686908704,
+                        40.71718413920748
+                    ],
+                    [
+                        -74.01396988654858,
+                        40.71630193876688
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 16.11,
+        "maximum_heat_score": 16.11,
+        "thermal_range_score": 16.11,
+        "cooling_priority_score": 16.11,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 117,
+        "average_temperature": 29.743,
+        "min_temperature": 24.5112,
+        "max_temperature": 33.4733,
+        "thermal_range": 8.962100000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01398290343359,
+                        40.71541973818757
+                    ],
+                    [
+                        -74.0127971718493,
+                        40.71540960315089
+                    ],
+                    [
+                        -74.01278413931709,
+                        40.71629180341663
+                    ],
+                    [
+                        -74.01396988654858,
+                        40.716301938766875
+                    ],
+                    [
+                        -74.01398290343359,
+                        40.71541973818757
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 15.44,
+        "maximum_heat_score": 15.44,
+        "thermal_range_score": 15.44,
+        "cooling_priority_score": 15.44,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 105,
+        "average_temperature": 29.7428,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4732,
+        "thermal_range": 8.9621,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01399591974207,
+                        40.71453753746956
+                    ],
+                    [
+                        -74.01281020380432,
+                        40.714527402746434
+                    ],
+                    [
+                        -74.0127971718493,
+                        40.71540960315089
+                    ],
+                    [
+                        -74.01398290343359,
+                        40.71541973818757
+                    ],
+                    [
+                        -74.01399591974207,
+                        40.71453753746956
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 14.77,
+        "maximum_heat_score": 14.77,
+        "thermal_range_score": 14.77,
+        "cooling_priority_score": 14.77,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 1,
+        "average_temperature": 29.7427,
+        "min_temperature": 24.5112,
+        "max_temperature": 33.4731,
+        "thermal_range": 8.961900000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01529861633273,
+                        40.70660784449386
+                    ],
+                    [
+                        -74.01411304057987,
+                        40.70659772476584
+                    ],
+                    [
+                        -74.01410002945876,
+                        40.70747992673216
+                    ],
+                    [
+                        -74.01528562085194,
+                        40.70749004677328
+                    ],
+                    [
+                        -74.01529861633273,
+                        40.70660784449386
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 14.09,
+        "maximum_heat_score": 14.09,
+        "thermal_range_score": 13.42,
+        "cooling_priority_score": 13.99,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 93,
+        "average_temperature": 29.7427,
+        "min_temperature": 24.511,
+        "max_temperature": 33.473,
+        "thermal_range": 8.962,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01400893547407,
+                        40.71365533661284
+                    ],
+                    [
+                        -74.01282323518215,
+                        40.71364520220325
+                    ],
+                    [
+                        -74.01281020380432,
+                        40.71452740274642
+                    ],
+                    [
+                        -74.01399591974207,
+                        40.71453753746955
+                    ],
+                    [
+                        -74.01400893547407,
+                        40.71365533661284
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 14.09,
+        "maximum_heat_score": 13.42,
+        "thermal_range_score": 14.09,
+        "cooling_priority_score": 13.86,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 81,
+        "average_temperature": 29.7426,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4729,
+        "thermal_range": 8.961900000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0140219506296,
+                        40.71277313561741
+                    ],
+                    [
+                        -74.01283626598283,
+                        40.71276300152137
+                    ],
+                    [
+                        -74.01282323518215,
+                        40.713645202203246
+                    ],
+                    [
+                        -74.01400893547407,
+                        40.713655336612824
+                    ],
+                    [
+                        -74.0140219506296,
+                        40.71277313561741
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 12.75,
+        "maximum_heat_score": 12.75,
+        "thermal_range_score": 13.42,
+        "cooling_priority_score": 12.85,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 12,
+        "average_temperature": 29.7426,
+        "min_temperature": 24.5112,
+        "max_temperature": 33.4729,
+        "thermal_range": 8.961700000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01528562085194,
+                        40.70749004677329
+                    ],
+                    [
+                        -74.01410002945876,
+                        40.70747992673216
+                    ],
+                    [
+                        -74.01408701776138,
+                        40.70836212855978
+                    ],
+                    [
+                        -74.01527262479557,
+                        40.70837224891401
+                    ],
+                    [
+                        -74.01528562085194,
+                        40.70749004677329
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 12.75,
+        "maximum_heat_score": 12.75,
+        "thermal_range_score": 11.41,
+        "cooling_priority_score": 12.55,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 69,
+        "average_temperature": 29.7425,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4728,
+        "thermal_range": 8.9618,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01403496520871,
+                        40.711890934483286
+                    ],
+                    [
+                        -74.01284929620637,
+                        40.711880800700754
+                    ],
+                    [
+                        -74.01283626598283,
+                        40.71276300152136
+                    ],
+                    [
+                        -74.0140219506296,
+                        40.7127731356174
+                    ],
+                    [
+                        -74.01403496520871,
+                        40.711890934483286
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 11.41,
+        "maximum_heat_score": 11.41,
+        "thermal_range_score": 12.08,
+        "cooling_priority_score": 11.51,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 23,
+        "average_temperature": 29.7425,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4728,
+        "thermal_range": 8.9617,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01527262479557,
+                        40.708372248914024
+                    ],
+                    [
+                        -74.01408701776138,
+                        40.70836212855979
+                    ],
+                    [
+                        -74.01407400548771,
+                        40.70924433024871
+                    ],
+                    [
+                        -74.01525962816362,
+                        40.709254450916056
+                    ],
+                    [
+                        -74.01527262479557,
+                        40.708372248914024
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 11.41,
+        "maximum_heat_score": 11.41,
+        "thermal_range_score": 10.07,
+        "cooling_priority_score": 11.21,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 34,
+        "average_temperature": 29.7424,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4727,
+        "thermal_range": 8.961600000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01525962816362,
+                        40.70925445091606
+                    ],
+                    [
+                        -74.01407400548771,
+                        40.709244330248715
+                    ],
+                    [
+                        -74.01406099263774,
+                        40.71012653179893
+                    ],
+                    [
+                        -74.01524663095604,
+                        40.710136652779404
+                    ],
+                    [
+                        -74.01525962816362,
+                        40.70925445091606
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 10.07,
+        "maximum_heat_score": 10.07,
+        "thermal_range_score": 9.4,
+        "cooling_priority_score": 9.97,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 57,
+        "average_temperature": 29.7423,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4727,
+        "thermal_range": 8.961700000000004,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0140479792114,
+                        40.71100873321046
+                    ],
+                    [
+                        -74.01286232585284,
+                        40.71099859974145
+                    ],
+                    [
+                        -74.01284929620637,
+                        40.711880800700754
+                    ],
+                    [
+                        -74.01403496520871,
+                        40.71189093448327
+                    ],
+                    [
+                        -74.0140479792114,
+                        40.71100873321046
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 9.4,
+        "maximum_heat_score": 10.07,
+        "thermal_range_score": 11.41,
+        "cooling_priority_score": 9.93,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 45,
+        "average_temperature": 29.7423,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4726,
+        "thermal_range": 8.9616,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01524663095604,
+                        40.710136652779404
+                    ],
+                    [
+                        -74.01406099263774,
+                        40.71012653179893
+                    ],
+                    [
+                        -74.0140479792114,
+                        40.71100873321045
+                    ],
+                    [
+                        -74.0152336331728,
+                        40.71101885450406
+                    ],
+                    [
+                        -74.01524663095604,
+                        40.710136652779404
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 9.4,
+        "maximum_heat_score": 8.72,
+        "thermal_range_score": 8.72,
+        "cooling_priority_score": 9.06,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 46,
+        "average_temperature": 29.7422,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4726,
+        "thermal_range": 8.9616,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01406099263774,
+                        40.71012653179893
+                    ],
+                    [
+                        -74.01287535492223,
+                        40.71011639864344
+                    ],
+                    [
+                        -74.01286232585284,
+                        40.71099859974145
+                    ],
+                    [
+                        -74.0140479792114,
+                        40.71100873321045
+                    ],
+                    [
+                        -74.01406099263774,
+                        40.71012653179893
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 8.05,
+        "maximum_heat_score": 8.72,
+        "thermal_range_score": 8.72,
+        "cooling_priority_score": 8.39,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 56,
+        "average_temperature": 29.7422,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4725,
+        "thermal_range": 8.961499999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0152336331728,
+                        40.71101885450407
+                    ],
+                    [
+                        -74.0140479792114,
+                        40.71100873321046
+                    ],
+                    [
+                        -74.01403496520871,
+                        40.71189093448327
+                    ],
+                    [
+                        -74.01522063481389,
+                        40.71190105609003
+                    ],
+                    [
+                        -74.0152336331728,
+                        40.71101885450407
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 8.05,
+        "maximum_heat_score": 7.38,
+        "thermal_range_score": 6.71,
+        "cooling_priority_score": 7.62,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 35,
+        "average_temperature": 29.7421,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4725,
+        "thermal_range": 8.961499999999997,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01407400548771,
+                        40.709244330248715
+                    ],
+                    [
+                        -74.01288838341458,
+                        40.70923419740672
+                    ],
+                    [
+                        -74.01287535492223,
+                        40.71011639864344
+                    ],
+                    [
+                        -74.01406099263774,
+                        40.71012653179893
+                    ],
+                    [
+                        -74.01407400548771,
+                        40.709244330248715
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 6.71,
+        "maximum_heat_score": 7.38,
+        "thermal_range_score": 6.71,
+        "cooling_priority_score": 6.95,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 68,
+        "average_temperature": 29.7421,
+        "min_temperature": 24.5109,
+        "max_temperature": 33.4724,
+        "thermal_range": 8.961500000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01522063481389,
+                        40.71190105609004
+                    ],
+                    [
+                        -74.01403496520871,
+                        40.711890934483286
+                    ],
+                    [
+                        -74.0140219506296,
+                        40.7127731356174
+                    ],
+                    [
+                        -74.01520763587926,
+                        40.7127832575373
+                    ],
+                    [
+                        -74.01522063481389,
+                        40.71190105609004
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 6.71,
+        "maximum_heat_score": 6.04,
+        "thermal_range_score": 7.38,
+        "cooling_priority_score": 6.58,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 24,
+        "average_temperature": 29.742,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4724,
+        "thermal_range": 8.961300000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01408701776138,
+                        40.70836212855979
+                    ],
+                    [
+                        -74.01290141132992,
+                        40.7083519960313
+                    ],
+                    [
+                        -74.01288838341458,
+                        40.709234197406715
+                    ],
+                    [
+                        -74.01407400548771,
+                        40.70924433024871
+                    ],
+                    [
+                        -74.01408701776138,
+                        40.70836212855979
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 5.37,
+        "maximum_heat_score": 6.04,
+        "thermal_range_score": 4.7,
+        "cooling_priority_score": 5.5,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 80,
+        "average_temperature": 29.742,
+        "min_temperature": 24.5109,
+        "max_temperature": 33.4723,
+        "thermal_range": 8.961399999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01520763587926,
+                        40.71278325753732
+                    ],
+                    [
+                        -74.0140219506296,
+                        40.71277313561741
+                    ],
+                    [
+                        -74.01400893547407,
+                        40.713655336612824
+                    ],
+                    [
+                        -74.0151946363689,
+                        40.713665458845895
+                    ],
+                    [
+                        -74.01520763587926,
+                        40.71278325753732
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 5.37,
+        "maximum_heat_score": 4.7,
+        "thermal_range_score": 5.37,
+        "cooling_priority_score": 5.13,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 13,
+        "average_temperature": 29.7419,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4723,
+        "thermal_range": 8.961199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01410002945876,
+                        40.70747992673216
+                    ],
+                    [
+                        -74.01291443866828,
+                        40.70746979451716
+                    ],
+                    [
+                        -74.01290141132992,
+                        40.70835199603128
+                    ],
+                    [
+                        -74.01408701776138,
+                        40.70836212855978
+                    ],
+                    [
+                        -74.01410002945876,
+                        40.70747992673216
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 4.03,
+        "maximum_heat_score": 4.7,
+        "thermal_range_score": 3.36,
+        "cooling_priority_score": 4.16,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 92,
+        "average_temperature": 29.7419,
+        "min_temperature": 24.5109,
+        "max_temperature": 33.4722,
+        "thermal_range": 8.961300000000001,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.0151946363689,
+                        40.713665458845895
+                    ],
+                    [
+                        -74.01400893547407,
+                        40.71365533661284
+                    ],
+                    [
+                        -74.01399591974207,
+                        40.71453753746955
+                    ],
+                    [
+                        -74.01518163628276,
+                        40.714547660015775
+                    ],
+                    [
+                        -74.0151946363689,
+                        40.713665458845895
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 4.03,
+        "maximum_heat_score": 3.36,
+        "thermal_range_score": 4.7,
+        "cooling_priority_score": 3.89,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 2,
+        "average_temperature": 29.7418,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4722,
+        "thermal_range": 8.961100000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01411304057987,
+                        40.70659772476584
+                    ],
+                    [
+                        -74.0129274654297,
+                        40.70658759286432
+                    ],
+                    [
+                        -74.01291443866828,
+                        40.70746979451715
+                    ],
+                    [
+                        -74.01410002945876,
+                        40.70747992673216
+                    ],
+                    [
+                        -74.01411304057987,
+                        40.70659772476584
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 2.68,
+        "maximum_heat_score": 3.36,
+        "thermal_range_score": 2.01,
+        "cooling_priority_score": 2.82,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 104,
+        "average_temperature": 29.7418,
+        "min_temperature": 24.5109,
+        "max_temperature": 33.4721,
+        "thermal_range": 8.961199999999998,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01518163628276,
+                        40.71454766001579
+                    ],
+                    [
+                        -74.01399591974207,
+                        40.71453753746956
+                    ],
+                    [
+                        -74.01398290343359,
+                        40.71541973818757
+                    ],
+                    [
+                        -74.01516863562084,
+                        40.71542986104697
+                    ],
+                    [
+                        -74.01518163628276,
+                        40.71454766001579
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 2.68,
+        "maximum_heat_score": 2.01,
+        "thermal_range_score": 3.36,
+        "cooling_priority_score": 2.55,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 116,
+        "average_temperature": 29.7417,
+        "min_temperature": 24.511,
+        "max_temperature": 33.472,
+        "thermal_range": 8.961000000000002,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01516863562084,
+                        40.71542986104697
+                    ],
+                    [
+                        -74.01398290343359,
+                        40.71541973818757
+                    ],
+                    [
+                        -74.01396988654858,
+                        40.716301938766875
+                    ],
+                    [
+                        -74.01515563438308,
+                        40.71631206193946
+                    ],
+                    [
+                        -74.01516863562084,
+                        40.71542986104697
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 1.34,
+        "maximum_heat_score": 1.34,
+        "thermal_range_score": 1.34,
+        "cooling_priority_score": 1.34,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 128,
+        "average_temperature": 29.7416,
+        "min_temperature": 24.511,
+        "max_temperature": 33.4719,
+        "thermal_range": 8.960899999999999,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01515563438308,
+                        40.71631206193947
+                    ],
+                    [
+                        -74.01396988654858,
+                        40.71630193876688
+                    ],
+                    [
+                        -74.01395686908704,
+                        40.71718413920748
+                    ],
+                    [
+                        -74.01514263256948,
+                        40.71719426269326
+                    ],
+                    [
+                        -74.01515563438308,
+                        40.71631206193947
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 0.67,
+        "maximum_heat_score": 0.67,
+        "thermal_range_score": 0.67,
+        "cooling_priority_score": 0.67,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "tile_id": 140,
+        "average_temperature": 29.7416,
+        "min_temperature": 24.5111,
+        "max_temperature": 33.4718,
+        "thermal_range": 8.960700000000003,
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -74.01514263256948,
+                        40.717194262693276
+                    ],
+                    [
+                        -74.01395686908704,
+                        40.7171841392075
+                    ],
+                    [
+                        -74.01394385104891,
+                        40.71806633950939
+                    ],
+                    [
+                        -74.01512963017998,
+                        40.718076463308364
+                    ],
+                    [
+                        -74.01514263256948,
+                        40.717194262693276
+                    ]
+                ]
+            ]
+        },
+        "average_heat_score": 0.67,
+        "maximum_heat_score": 0.0,
+        "thermal_range_score": 0.0,
+        "cooling_priority_score": 0.34,
+        "priority_label": "Lower Priority"
+    }
+]

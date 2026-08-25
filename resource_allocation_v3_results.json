@@ -1,0 +1,583 @@
+{
+    "model": {
+        "name": "Resource Allocation V3",
+        "population_normalization": "Percentile Rank",
+        "policies": {
+            "NEED-FIRST": {
+                "need_weight": 0.85,
+                "reach_weight": 0.15,
+                "description": "Prioritize the areas with the highest cooling need."
+            },
+            "BALANCED": {
+                "need_weight": 0.7,
+                "reach_weight": 0.3,
+                "description": "Balance cooling need with the number of people potentially affected."
+            },
+            "REACH-FIRST": {
+                "need_weight": 0.4,
+                "reach_weight": 0.6,
+                "description": "Prioritize larger population reach while retaining a meaningful heat/vulnerability signal."
+            }
+        }
+    },
+    "results": {
+        "NEED-FIRST": {
+            "policy": "NEED-FIRST",
+            "policy_description": "Prioritize the areas with the highest cooling need.",
+            "budget": 3,
+            "selected": [
+                {
+                    "GEOID": "36061002901",
+                    "TRACT_NAME": "29.01",
+                    "population": 1113,
+                    "cooling_priority_score": 95.24,
+                    "heat_exposure_score": 96.31,
+                    "social_vulnerability_score": 92.77,
+                    "population_reach_score": 0.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 80.95
+                },
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 77.8
+                },
+                {
+                    "GEOID": "36061003100",
+                    "TRACT_NAME": "31",
+                    "population": 2667,
+                    "cooling_priority_score": 77.15,
+                    "heat_exposure_score": 87.86,
+                    "social_vulnerability_score": 52.17,
+                    "population_reach_score": 10.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 67.08
+                }
+            ],
+            "coverage": {
+                "selected_population": 11501,
+                "total_population": 70646,
+                "population_coverage_percent": 16.28,
+                "selected_priority_sum": 251.57,
+                "total_priority_sum": 559.27,
+                "priority_coverage_percent": 44.98,
+                "selected_impact_sum": 225.83
+            },
+            "ranking": [
+                {
+                    "GEOID": "36061002901",
+                    "TRACT_NAME": "29.01",
+                    "population": 1113,
+                    "cooling_priority_score": 95.24,
+                    "heat_exposure_score": 96.31,
+                    "social_vulnerability_score": 92.77,
+                    "population_reach_score": 0.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 80.95
+                },
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 77.8
+                },
+                {
+                    "GEOID": "36061003100",
+                    "TRACT_NAME": "31",
+                    "population": 2667,
+                    "cooling_priority_score": 77.15,
+                    "heat_exposure_score": 87.86,
+                    "social_vulnerability_score": 52.17,
+                    "population_reach_score": 10.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 67.08
+                },
+                {
+                    "GEOID": "36061001502",
+                    "TRACT_NAME": "15.02",
+                    "population": 8623,
+                    "cooling_priority_score": 59.99,
+                    "heat_exposure_score": 71.28,
+                    "social_vulnerability_score": 33.64,
+                    "population_reach_score": 80.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 62.99
+                },
+                {
+                    "GEOID": "36061003300",
+                    "TRACT_NAME": "33",
+                    "population": 5787,
+                    "cooling_priority_score": 60.57,
+                    "heat_exposure_score": 80.54,
+                    "social_vulnerability_score": 13.98,
+                    "population_reach_score": 30.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 55.98
+                },
+                {
+                    "GEOID": "36061003900",
+                    "TRACT_NAME": "39",
+                    "population": 6935,
+                    "cooling_priority_score": 47.6,
+                    "heat_exposure_score": 48.19,
+                    "social_vulnerability_score": 46.24,
+                    "population_reach_score": 50.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 47.96
+                },
+                {
+                    "GEOID": "36061000700",
+                    "TRACT_NAME": "7",
+                    "population": 8674,
+                    "cooling_priority_score": 39.95,
+                    "heat_exposure_score": 50.92,
+                    "social_vulnerability_score": 14.34,
+                    "population_reach_score": 90.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 47.46
+                },
+                {
+                    "GEOID": "36061002100",
+                    "TRACT_NAME": "21",
+                    "population": 7275,
+                    "cooling_priority_score": 37.4,
+                    "heat_exposure_score": 50.0,
+                    "social_vulnerability_score": 8.0,
+                    "population_reach_score": 60.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 40.79
+                },
+                {
+                    "GEOID": "36061031704",
+                    "TRACT_NAME": "317.04",
+                    "population": 10540,
+                    "cooling_priority_score": 18.71,
+                    "heat_exposure_score": 21.72,
+                    "social_vulnerability_score": 11.7,
+                    "population_reach_score": 100.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 30.9
+                },
+                {
+                    "GEOID": "36061031703",
+                    "TRACT_NAME": "317.03",
+                    "population": 6450,
+                    "cooling_priority_score": 21.17,
+                    "heat_exposure_score": 18.69,
+                    "social_vulnerability_score": 26.98,
+                    "population_reach_score": 40.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 23.99
+                },
+                {
+                    "GEOID": "36061001300",
+                    "TRACT_NAME": "13",
+                    "population": 4861,
+                    "cooling_priority_score": 22.31,
+                    "heat_exposure_score": 25.25,
+                    "social_vulnerability_score": 15.46,
+                    "population_reach_score": 20.0,
+                    "need_weight": 0.85,
+                    "reach_weight": 0.15,
+                    "impact_score": 21.96
+                }
+            ]
+        },
+        "BALANCED": {
+            "policy": "BALANCED",
+            "policy_description": "Balance cooling need with the number of people potentially affected.",
+            "budget": 3,
+            "selected": [
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 76.43
+                },
+                {
+                    "GEOID": "36061002901",
+                    "TRACT_NAME": "29.01",
+                    "population": 1113,
+                    "cooling_priority_score": 95.24,
+                    "heat_exposure_score": 96.31,
+                    "social_vulnerability_score": 92.77,
+                    "population_reach_score": 0.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 66.67
+                },
+                {
+                    "GEOID": "36061001502",
+                    "TRACT_NAME": "15.02",
+                    "population": 8623,
+                    "cooling_priority_score": 59.99,
+                    "heat_exposure_score": 71.28,
+                    "social_vulnerability_score": 33.64,
+                    "population_reach_score": 80.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 65.99
+                }
+            ],
+            "coverage": {
+                "selected_population": 17457,
+                "total_population": 70646,
+                "population_coverage_percent": 24.71,
+                "selected_priority_sum": 234.41,
+                "total_priority_sum": 559.27,
+                "priority_coverage_percent": 41.91,
+                "selected_impact_sum": 209.09
+            },
+            "ranking": [
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 76.43
+                },
+                {
+                    "GEOID": "36061002901",
+                    "TRACT_NAME": "29.01",
+                    "population": 1113,
+                    "cooling_priority_score": 95.24,
+                    "heat_exposure_score": 96.31,
+                    "social_vulnerability_score": 92.77,
+                    "population_reach_score": 0.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 66.67
+                },
+                {
+                    "GEOID": "36061001502",
+                    "TRACT_NAME": "15.02",
+                    "population": 8623,
+                    "cooling_priority_score": 59.99,
+                    "heat_exposure_score": 71.28,
+                    "social_vulnerability_score": 33.64,
+                    "population_reach_score": 80.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 65.99
+                },
+                {
+                    "GEOID": "36061003100",
+                    "TRACT_NAME": "31",
+                    "population": 2667,
+                    "cooling_priority_score": 77.15,
+                    "heat_exposure_score": 87.86,
+                    "social_vulnerability_score": 52.17,
+                    "population_reach_score": 10.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 57.01
+                },
+                {
+                    "GEOID": "36061000700",
+                    "TRACT_NAME": "7",
+                    "population": 8674,
+                    "cooling_priority_score": 39.95,
+                    "heat_exposure_score": 50.92,
+                    "social_vulnerability_score": 14.34,
+                    "population_reach_score": 90.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 54.97
+                },
+                {
+                    "GEOID": "36061003300",
+                    "TRACT_NAME": "33",
+                    "population": 5787,
+                    "cooling_priority_score": 60.57,
+                    "heat_exposure_score": 80.54,
+                    "social_vulnerability_score": 13.98,
+                    "population_reach_score": 30.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 51.4
+                },
+                {
+                    "GEOID": "36061003900",
+                    "TRACT_NAME": "39",
+                    "population": 6935,
+                    "cooling_priority_score": 47.6,
+                    "heat_exposure_score": 48.19,
+                    "social_vulnerability_score": 46.24,
+                    "population_reach_score": 50.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 48.32
+                },
+                {
+                    "GEOID": "36061002100",
+                    "TRACT_NAME": "21",
+                    "population": 7275,
+                    "cooling_priority_score": 37.4,
+                    "heat_exposure_score": 50.0,
+                    "social_vulnerability_score": 8.0,
+                    "population_reach_score": 60.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 44.18
+                },
+                {
+                    "GEOID": "36061031704",
+                    "TRACT_NAME": "317.04",
+                    "population": 10540,
+                    "cooling_priority_score": 18.71,
+                    "heat_exposure_score": 21.72,
+                    "social_vulnerability_score": 11.7,
+                    "population_reach_score": 100.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 43.1
+                },
+                {
+                    "GEOID": "36061031703",
+                    "TRACT_NAME": "317.03",
+                    "population": 6450,
+                    "cooling_priority_score": 21.17,
+                    "heat_exposure_score": 18.69,
+                    "social_vulnerability_score": 26.98,
+                    "population_reach_score": 40.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 26.82
+                },
+                {
+                    "GEOID": "36061001300",
+                    "TRACT_NAME": "13",
+                    "population": 4861,
+                    "cooling_priority_score": 22.31,
+                    "heat_exposure_score": 25.25,
+                    "social_vulnerability_score": 15.46,
+                    "population_reach_score": 20.0,
+                    "need_weight": 0.7,
+                    "reach_weight": 0.3,
+                    "impact_score": 21.62
+                }
+            ]
+        },
+        "REACH-FIRST": {
+            "policy": "REACH-FIRST",
+            "policy_description": "Prioritize larger population reach while retaining a meaningful heat/vulnerability signal.",
+            "budget": 3,
+            "selected": [
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 73.67
+                },
+                {
+                    "GEOID": "36061001502",
+                    "TRACT_NAME": "15.02",
+                    "population": 8623,
+                    "cooling_priority_score": 59.99,
+                    "heat_exposure_score": 71.28,
+                    "social_vulnerability_score": 33.64,
+                    "population_reach_score": 80.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 72.0
+                },
+                {
+                    "GEOID": "36061000700",
+                    "TRACT_NAME": "7",
+                    "population": 8674,
+                    "cooling_priority_score": 39.95,
+                    "heat_exposure_score": 50.92,
+                    "social_vulnerability_score": 14.34,
+                    "population_reach_score": 90.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 69.98
+                }
+            ],
+            "coverage": {
+                "selected_population": 25018,
+                "total_population": 70646,
+                "population_coverage_percent": 35.41,
+                "selected_priority_sum": 179.12,
+                "total_priority_sum": 559.27,
+                "priority_coverage_percent": 32.03,
+                "selected_impact_sum": 215.65
+            },
+            "ranking": [
+                {
+                    "GEOID": "36061001501",
+                    "TRACT_NAME": "15.01",
+                    "population": 7721,
+                    "cooling_priority_score": 79.18,
+                    "heat_exposure_score": 84.56,
+                    "social_vulnerability_score": 66.63,
+                    "population_reach_score": 70.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 73.67
+                },
+                {
+                    "GEOID": "36061001502",
+                    "TRACT_NAME": "15.02",
+                    "population": 8623,
+                    "cooling_priority_score": 59.99,
+                    "heat_exposure_score": 71.28,
+                    "social_vulnerability_score": 33.64,
+                    "population_reach_score": 80.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 72.0
+                },
+                {
+                    "GEOID": "36061000700",
+                    "TRACT_NAME": "7",
+                    "population": 8674,
+                    "cooling_priority_score": 39.95,
+                    "heat_exposure_score": 50.92,
+                    "social_vulnerability_score": 14.34,
+                    "population_reach_score": 90.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 69.98
+                },
+                {
+                    "GEOID": "36061031704",
+                    "TRACT_NAME": "317.04",
+                    "population": 10540,
+                    "cooling_priority_score": 18.71,
+                    "heat_exposure_score": 21.72,
+                    "social_vulnerability_score": 11.7,
+                    "population_reach_score": 100.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 67.48
+                },
+                {
+                    "GEOID": "36061002100",
+                    "TRACT_NAME": "21",
+                    "population": 7275,
+                    "cooling_priority_score": 37.4,
+                    "heat_exposure_score": 50.0,
+                    "social_vulnerability_score": 8.0,
+                    "population_reach_score": 60.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 50.96
+                },
+                {
+                    "GEOID": "36061003900",
+                    "TRACT_NAME": "39",
+                    "population": 6935,
+                    "cooling_priority_score": 47.6,
+                    "heat_exposure_score": 48.19,
+                    "social_vulnerability_score": 46.24,
+                    "population_reach_score": 50.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 49.04
+                },
+                {
+                    "GEOID": "36061003300",
+                    "TRACT_NAME": "33",
+                    "population": 5787,
+                    "cooling_priority_score": 60.57,
+                    "heat_exposure_score": 80.54,
+                    "social_vulnerability_score": 13.98,
+                    "population_reach_score": 30.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 42.23
+                },
+                {
+                    "GEOID": "36061002901",
+                    "TRACT_NAME": "29.01",
+                    "population": 1113,
+                    "cooling_priority_score": 95.24,
+                    "heat_exposure_score": 96.31,
+                    "social_vulnerability_score": 92.77,
+                    "population_reach_score": 0.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 38.1
+                },
+                {
+                    "GEOID": "36061003100",
+                    "TRACT_NAME": "31",
+                    "population": 2667,
+                    "cooling_priority_score": 77.15,
+                    "heat_exposure_score": 87.86,
+                    "social_vulnerability_score": 52.17,
+                    "population_reach_score": 10.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 36.86
+                },
+                {
+                    "GEOID": "36061031703",
+                    "TRACT_NAME": "317.03",
+                    "population": 6450,
+                    "cooling_priority_score": 21.17,
+                    "heat_exposure_score": 18.69,
+                    "social_vulnerability_score": 26.98,
+                    "population_reach_score": 40.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 32.47
+                },
+                {
+                    "GEOID": "36061001300",
+                    "TRACT_NAME": "13",
+                    "population": 4861,
+                    "cooling_priority_score": 22.31,
+                    "heat_exposure_score": 25.25,
+                    "social_vulnerability_score": 15.46,
+                    "population_reach_score": 20.0,
+                    "need_weight": 0.4,
+                    "reach_weight": 0.6,
+                    "impact_score": 20.92
+                }
+            ]
+        }
+    }
+}

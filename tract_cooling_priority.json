@@ -1,0 +1,310 @@
+[
+    {
+        "GEOID": "36061002901",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "002901",
+        "TRACT_NAME": "29.01",
+        "tile_count": 2,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 30.6549,
+            "average_max_temperature": 34.3941,
+            "average_min_temperature": 24.6044,
+            "average_thermal_range": 9.7897,
+            "heat_exposure_score": 96.31
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.9119,
+            "RPL_THEME2": 0.395,
+            "RPL_THEME3": 0.7703,
+            "RPL_THEME4": 0.9889,
+            "RPL_THEMES": 92.77
+        },
+        "cooling_priority_score": 95.24,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "GEOID": "36061001501",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "001501",
+        "TRACT_NAME": "15.01",
+        "tile_count": 14,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 30.4463,
+            "average_max_temperature": 34.1835,
+            "average_min_temperature": 24.583,
+            "average_thermal_range": 9.6005,
+            "heat_exposure_score": 84.56
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.3043,
+            "RPL_THEME2": 0.4375,
+            "RPL_THEME3": 0.6398,
+            "RPL_THEME4": 0.9844,
+            "RPL_THEMES": 66.63
+        },
+        "cooling_priority_score": 79.18,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "GEOID": "36061003100",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "003100",
+        "TRACT_NAME": "31",
+        "tile_count": 11,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 30.4631,
+            "average_max_temperature": 34.2005,
+            "average_min_temperature": 24.585,
+            "average_thermal_range": 9.6154,
+            "heat_exposure_score": 87.86
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.4144,
+            "RPL_THEME2": 0.024,
+            "RPL_THEME3": 0.6963,
+            "RPL_THEME4": 0.9801,
+            "RPL_THEMES": 52.17
+        },
+        "cooling_priority_score": 77.15,
+        "priority_label": "Critical Priority"
+    },
+    {
+        "GEOID": "36061003300",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "003300",
+        "TRACT_NAME": "33",
+        "tile_count": 13,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 30.2893,
+            "average_max_temperature": 34.0249,
+            "average_min_temperature": 24.5673,
+            "average_thermal_range": 9.4575,
+            "heat_exposure_score": 80.54
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.0301,
+            "RPL_THEME2": 0.0683,
+            "RPL_THEME3": 0.3979,
+            "RPL_THEME4": 0.6635,
+            "RPL_THEMES": 13.98
+        },
+        "cooling_priority_score": 60.57,
+        "priority_label": "High Priority"
+    },
+    {
+        "GEOID": "36061001502",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "001502",
+        "TRACT_NAME": "15.02",
+        "tile_count": 14,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 30.2234,
+            "average_max_temperature": 33.9584,
+            "average_min_temperature": 24.5603,
+            "average_thermal_range": 9.3981,
+            "heat_exposure_score": 71.28
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.1668,
+            "RPL_THEME2": 0.0185,
+            "RPL_THEME3": 0.5467,
+            "RPL_THEME4": 0.9775,
+            "RPL_THEMES": 33.64
+        },
+        "cooling_priority_score": 59.99,
+        "priority_label": "High Priority"
+    },
+    {
+        "GEOID": "36061003900",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "003900",
+        "TRACT_NAME": "39",
+        "tile_count": 5,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.8371,
+            "average_max_temperature": 33.5683,
+            "average_min_temperature": 24.521,
+            "average_thermal_range": 9.0473,
+            "heat_exposure_score": 48.19
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.1884,
+            "RPL_THEME2": 0.7111,
+            "RPL_THEME3": 0.6043,
+            "RPL_THEME4": 0.6258,
+            "RPL_THEMES": 46.24
+        },
+        "cooling_priority_score": 47.6,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "GEOID": "36061000700",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "000700",
+        "TRACT_NAME": "7",
+        "tile_count": 8,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.921,
+            "average_max_temperature": 33.6531,
+            "average_min_temperature": 24.5294,
+            "average_thermal_range": 9.1236,
+            "heat_exposure_score": 50.92
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.0542,
+            "RPL_THEME2": 0.006,
+            "RPL_THEME3": 0.4739,
+            "RPL_THEME4": 0.9103,
+            "RPL_THEMES": 14.34
+        },
+        "cooling_priority_score": 39.95,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "GEOID": "36061002100",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "002100",
+        "TRACT_NAME": "21",
+        "tile_count": 23,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.8994,
+            "average_max_temperature": 33.6312,
+            "average_min_temperature": 24.5272,
+            "average_thermal_range": 9.104,
+            "heat_exposure_score": 50.0
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.0007,
+            "RPL_THEME2": 0.0217,
+            "RPL_THEME3": 0.5382,
+            "RPL_THEME4": 0.7507,
+            "RPL_THEMES": 8.0
+        },
+        "cooling_priority_score": 37.4,
+        "priority_label": "Moderate Priority"
+    },
+    {
+        "GEOID": "36061001300",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "001300",
+        "TRACT_NAME": "13",
+        "tile_count": 27,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.7804,
+            "average_max_temperature": 33.5111,
+            "average_min_temperature": 24.5149,
+            "average_thermal_range": 8.9962,
+            "heat_exposure_score": 25.25
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.1279,
+            "RPL_THEME2": 0.0101,
+            "RPL_THEME3": 0.5537,
+            "RPL_THEME4": 0.7507,
+            "RPL_THEMES": 15.46
+        },
+        "cooling_priority_score": 22.31,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "GEOID": "36061031703",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "031703",
+        "TRACT_NAME": "317.03",
+        "tile_count": 26,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.7596,
+            "average_max_temperature": 33.4901,
+            "average_min_temperature": 24.5128,
+            "average_thermal_range": 8.9773,
+            "heat_exposure_score": 18.69
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.022,
+            "RPL_THEME2": 0.4441,
+            "RPL_THEME3": 0.4502,
+            "RPL_THEME4": 0.7236,
+            "RPL_THEMES": 26.98
+        },
+        "cooling_priority_score": 21.17,
+        "priority_label": "Lower Priority"
+    },
+    {
+        "GEOID": "36061031704",
+        "STATEFP": "36",
+        "COUNTYFP": "061",
+        "TRACTCE": "031704",
+        "TRACT_NAME": "317.04",
+        "tile_count": 7,
+        "centroid": {
+            "latitude": null,
+            "longitude": null
+        },
+        "heat_exposure": {
+            "average_temperature": 29.7579,
+            "average_max_temperature": 33.4885,
+            "average_min_temperature": 24.5127,
+            "average_thermal_range": 8.9758,
+            "heat_exposure_score": 21.72
+        },
+        "social_vulnerability": {
+            "RPL_THEME1": 0.0097,
+            "RPL_THEME2": 0.053,
+            "RPL_THEME3": 0.5694,
+            "RPL_THEME4": 0.6393,
+            "RPL_THEMES": 11.7
+        },
+        "cooling_priority_score": 18.71,
+        "priority_label": "Lower Priority"
+    }
+]

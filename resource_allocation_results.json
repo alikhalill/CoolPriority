@@ -1,0 +1,109 @@
+{
+    "optimization": {
+        "budget": 3,
+        "selected_areas": [
+            {
+                "GEOID": "36061002901",
+                "TRACT_NAME": "29.01",
+                "cooling_priority_score": 95.24,
+                "heat_exposure_score": 96.31,
+                "social_vulnerability_score": 92.77,
+                "allocation_value": 95.21,
+                "explanation": "Selected because of very high heat exposure + very high social vulnerability. Cooling Priority = 95.24/100."
+            },
+            {
+                "GEOID": "36061001501",
+                "TRACT_NAME": "15.01",
+                "cooling_priority_score": 79.18,
+                "heat_exposure_score": 84.56,
+                "social_vulnerability_score": 66.63,
+                "allocation_value": 79.0,
+                "explanation": "Selected because of very high heat exposure + high social vulnerability. Cooling Priority = 79.18/100."
+            },
+            {
+                "GEOID": "36061003100",
+                "TRACT_NAME": "31",
+                "cooling_priority_score": 77.15,
+                "heat_exposure_score": 87.86,
+                "social_vulnerability_score": 52.17,
+                "allocation_value": 76.79,
+                "explanation": "Selected because of very high heat exposure + high social vulnerability. Cooling Priority = 77.15/100."
+            }
+        ]
+    },
+    "coverage": {
+        "selected_areas": 3,
+        "total_areas": 11,
+        "selected_priority_sum": 251.57,
+        "all_priority_sum": 559.27,
+        "priority_coverage_percent": 44.98
+    },
+    "full_ranking": [
+        {
+            "GEOID": "36061002901",
+            "TRACT_NAME": "29.01",
+            "cooling_priority_score": 95.24,
+            "allocation_value": 95.21
+        },
+        {
+            "GEOID": "36061001501",
+            "TRACT_NAME": "15.01",
+            "cooling_priority_score": 79.18,
+            "allocation_value": 79.0
+        },
+        {
+            "GEOID": "36061003100",
+            "TRACT_NAME": "31",
+            "cooling_priority_score": 77.15,
+            "allocation_value": 76.79
+        },
+        {
+            "GEOID": "36061003300",
+            "TRACT_NAME": "33",
+            "cooling_priority_score": 60.57,
+            "allocation_value": 59.91
+        },
+        {
+            "GEOID": "36061001502",
+            "TRACT_NAME": "15.02",
+            "cooling_priority_score": 59.99,
+            "allocation_value": 59.61
+        },
+        {
+            "GEOID": "36061003900",
+            "TRACT_NAME": "39",
+            "cooling_priority_score": 47.6,
+            "allocation_value": 47.58
+        },
+        {
+            "GEOID": "36061000700",
+            "TRACT_NAME": "7",
+            "cooling_priority_score": 39.95,
+            "allocation_value": 39.58
+        },
+        {
+            "GEOID": "36061002100",
+            "TRACT_NAME": "21",
+            "cooling_priority_score": 37.4,
+            "allocation_value": 36.98
+        },
+        {
+            "GEOID": "36061001300",
+            "TRACT_NAME": "13",
+            "cooling_priority_score": 22.31,
+            "allocation_value": 22.21
+        },
+        {
+            "GEOID": "36061031703",
+            "TRACT_NAME": "317.03",
+            "cooling_priority_score": 21.17,
+            "allocation_value": 21.26
+        },
+        {
+            "GEOID": "36061031704",
+            "TRACT_NAME": "317.04",
+            "cooling_priority_score": 18.71,
+            "allocation_value": 18.61
+        }
+    ]
+}
