@@ -27,6 +27,27 @@ from budget_scenario_v2 import (
     recommend_policy,
 )
 
+from fortyguard_time_of_measure import (
+    run_time_of_measure,
+)
+
+from heat_trajectory import (
+    analyze_peak_timing_result,
+    summarize_peak_heat_timing,
+)
+
+from intervention_simulator import (
+    INTERVENTIONS,
+    simulate_intervention,
+    summarize_intervention,
+)
+
+from transit_heat_overlay import (
+    load_mta_stations,
+    stations_to_gdf,
+    match_stations_to_priority,
+    rank_transit_heat_exposure,
+)
 
 # ============================================================
 # CONFIG
@@ -140,6 +161,21 @@ for key, value in defaults.items():
 
     if key not in st.session_state:
         st.session_state[key] = value
+
+extra_defaults = {
+    "peak_timing_result": None,
+    "peak_timing_activity_id": None,
+    "peak_timing_error": None,
+    "intervention_result": None,
+    "transit_result": None,
+}
+
+for key, value in extra_defaults.items():
+
+    if key not in st.session_state:
+        st.session_state[key] = value
+
+
 
 
 # ============================================================
@@ -886,6 +922,16 @@ run_live = st.sidebar.button(
     type="primary",
 )
 
+st.sidebar.divider()
+
+run_peak_timing = st.sidebar.button(
+    "⏱️ Analyze Peak Heat Timing",
+)
+
+st.sidebar.caption(
+    "Peak timing uses one additional FortyGuard Heatmap request."
+)
+
 
 # ============================================================
 # DRAW YOUR AREA
@@ -1224,6 +1270,181 @@ if st.session_state.live_error:
         "Live analysis failed:\n"
         + st.session_state.live_error
     )
+
+
+# ============================================================
+# PEAK HEAT TIMING REQUEST
+# ============================================================
+
+if run_peak_timing:
+
+    polygon_aoi = (
+        st.session_state.selected_polygon
+    )
+
+    if polygon_aoi is None:
+
+        st.error(
+            "Please select a valid analysis area first."
+        )
+
+        st.stop()
+
+    aoi_validation = validate_aoi(
+        polygon_aoi
+    )
+
+    if not aoi_validation["valid"]:
+
+        st.error(
+            aoi_validation["message"]
+        )
+
+        st.stop()
+
+    try:
+
+        start_datetime = datetime.combine(
+            start_date,
+            start_time,
+        )
+
+        end_datetime = (
+            start_datetime
+            + timedelta(
+                hours=int(
+                    analysis_hours
+                )
+            )
+        )
+
+        if analysis_hours == 1:
+
+            filter_type = 1
+            end_time_string = None
+
+        else:
+
+            filter_type = 2
+            end_time_string = (
+                end_datetime
+                .time()
+                .strftime("%H:%M")
+            )
+
+        st.session_state.peak_timing_error = None
+
+        with st.spinner(
+            "Analyzing peak heat timing..."
+        ):
+
+            timing_response = run_time_of_measure(
+                polygon_aoi=polygon_aoi,
+                start_date=start_date.strftime(
+                    "%Y-%m-%d"
+                ),
+                start_time=start_time.strftime(
+                    "%H:%M"
+                ),
+                end_time=end_time_string,
+                filter_type=filter_type,
+                granularity=granularity,
+            )
+
+            st.session_state.peak_timing_activity_id = (
+                timing_response[
+                    "activity_id"
+                ]
+            )
+
+            st.session_state.peak_timing_result = (
+                analyze_peak_timing_result(
+                    timing_response[
+                        "result"
+                    ]
+                )
+            )
+
+    except Exception as exc:
+
+        st.session_state.peak_timing_result = None
+        st.session_state.peak_timing_error = str(exc)
+
+
+# ============================================================
+# PEAK HEAT TIMING UI
+# ============================================================
+
+if st.session_state.peak_timing_error:
+
+    st.error(
+        st.session_state.peak_timing_error
+    )
+
+
+if st.session_state.peak_timing_result is not None:
+
+    peak_data = (
+        st.session_state.peak_timing_result
+    )
+
+    summary = peak_data[
+        "summary"
+    ]
+
+    distribution = peak_data[
+        "distribution"
+    ]
+
+    st.header(
+        "⏱️ Peak Heat Timing"
+    )
+
+    p1, p2, p3 = st.columns(3)
+
+    p1.metric(
+        "Peak Hour",
+        f"{int(summary['most_common_peak_hour_utc']):02d}:00 UTC",
+    )
+
+    p2.metric(
+        "Tiles at Peak",
+        f"{summary['tiles_at_peak_hour']} / {summary['total_tiles']}",
+    )
+
+    p3.metric(
+        "Peak Share",
+        f"{summary['peak_hour_share_percent']:.1f}%",
+    )
+
+    st.success(
+        peak_data[
+            "interpretation"
+        ]
+    )
+
+    chart_data = (
+        distribution[
+            [
+                "hour",
+                "tile_count",
+            ]
+        ]
+        .set_index("hour")
+    )
+
+    st.bar_chart(
+        chart_data
+    )
+
+    if st.session_state.peak_timing_activity_id:
+
+        st.caption(
+            "FortyGuard Activity ID: "
+            + str(
+                st.session_state.peak_timing_activity_id
+            )
+        )
 
 
 # ============================================================
@@ -2213,6 +2434,258 @@ if (
 
 
 # ============================================================
+# INTERVENTION SIMULATOR
+# ============================================================
+
+st.header(
+    "🌳 Intervention Simulator"
+)
+
+st.markdown(
+    """
+Explore project-specific intervention scenarios and their
+modeled effect on Cooling Priority.
+"""
+)
+
+intervention_name = st.selectbox(
+    "Choose an intervention",
+    list(
+        INTERVENTIONS.keys()
+    ),
+    key="intervention_selector",
+)
+
+intervention_coverage = st.slider(
+    "Scenario coverage",
+    min_value=0,
+    max_value=100,
+    value=100,
+    step=10,
+    key="intervention_coverage",
+)
+
+st.caption(
+    INTERVENTIONS[
+        intervention_name
+    ][
+        "description"
+    ]
+)
+
+if st.button(
+    "🧪 Run Intervention Scenario"
+):
+
+    simulated_df = simulate_intervention(
+        allocation_df,
+        intervention_name,
+        coverage=(
+            intervention_coverage
+            / 100.0
+        ),
+    )
+
+    intervention_summary = summarize_intervention(
+        allocation_df,
+        simulated_df,
+    )
+
+    st.session_state.intervention_result = {
+        "data": simulated_df,
+        "summary": intervention_summary,
+    }
+
+
+if st.session_state.intervention_result is not None:
+
+    intervention_result = (
+        st.session_state.intervention_result
+    )
+
+    intervention_summary = (
+        intervention_result[
+            "summary"
+        ]
+    )
+
+    i1, i2, i3 = st.columns(3)
+
+    i1.metric(
+        "Baseline Priority",
+        f"{intervention_summary['baseline_priority_sum']:.2f}",
+    )
+
+    i2.metric(
+        "Scenario Priority",
+        f"{intervention_summary['simulated_priority_sum']:.2f}",
+    )
+
+    i3.metric(
+        "Modeled Reduction",
+        f"{intervention_summary['priority_reduction_percent']:.2f}%",
+    )
+
+    st.warning(
+        "Scenario estimate only — this is a project-specific "
+        "modeled assumption, not a measured causal effect."
+    )
+
+    scenario_df = intervention_result[
+        "data"
+    ]
+
+    display_columns = [
+        "GEOID",
+        "TRACT_NAME",
+        "cooling_priority_score",
+        "simulated_cooling_priority",
+    ]
+
+    existing_columns = [
+        column
+        for column in display_columns
+        if column in scenario_df.columns
+    ]
+
+    st.dataframe(
+        scenario_df[
+            existing_columns
+        ],
+        use_container_width=True,
+    )
+
+
+# ============================================================
+# TRANSIT HEAT OVERLAY
+# ============================================================
+
+st.header(
+    "🚇 Transit Heat Overlay"
+)
+
+st.markdown(
+    """
+Identify public-transit stations associated with higher-priority
+Census Tracts in the currently analyzed area.
+"""
+)
+
+if st.button(
+    "🚇 Load Transit Heat Overlay"
+):
+
+    try:
+
+        stations_df = load_mta_stations()
+
+        stations_gdf = stations_to_gdf(
+            stations_df
+        )
+
+        priority_gdf = gpd.GeoDataFrame(
+            df.copy(),
+            geometry="geometry",
+            crs="EPSG:4326",
+        )
+
+        matched = match_stations_to_priority(
+            stations_gdf,
+            priority_gdf,
+        )
+
+        ranked = rank_transit_heat_exposure(
+            matched,
+            threshold=75.0,
+        )
+
+        ranked = (
+            ranked
+            .drop_duplicates(
+                subset=[
+                    "gtfs_latitude",
+                    "gtfs_longitude",
+                ]
+            )
+            .reset_index(drop=True)
+        )
+
+        st.session_state.transit_result = ranked
+
+    except Exception as exc:
+
+        st.error(
+            f"Transit overlay failed: {exc}"
+        )
+
+
+if st.session_state.transit_result is not None:
+
+    transit_df = (
+        st.session_state.transit_result
+    )
+
+    high_priority_transit = transit_df[
+        transit_df[
+            "cooling_priority_score"
+        ].notna()
+    ].copy()
+
+    high_priority_transit = high_priority_transit[
+        high_priority_transit[
+            "cooling_priority_score"
+        ] >= 75
+    ]
+
+    t1, t2 = st.columns(2)
+
+    t1.metric(
+        "Stations Matched",
+        len(transit_df),
+    )
+
+    t2.metric(
+        "Stations in High/Critical Areas",
+        len(high_priority_transit),
+    )
+
+    if not high_priority_transit.empty:
+
+        st.subheader(
+            "🚨 Priority Transit Locations"
+        )
+
+        transit_display = (
+            high_priority_transit[
+                [
+                    "stop_name",
+                    "TRACT_NAME",
+                    "cooling_priority_score",
+                    "heat_exposure_score",
+                    "social_vulnerability_score",
+                ]
+            ]
+            .sort_values(
+                "cooling_priority_score",
+                ascending=False,
+            )
+            .reset_index(drop=True)
+        )
+
+        st.dataframe(
+            transit_display,
+            use_container_width=True,
+        )
+
+    else:
+
+        st.info(
+            "No transit stations were found inside areas "
+            "with Cooling Priority >= 75."
+        )
+
+
+# ============================================================
 # MAP
 # ============================================================
 
@@ -2291,10 +2764,73 @@ tooltip = {
     },
 }
 
+map_layers = [
+    layer
+]
+
+if st.session_state.transit_result is not None:
+
+    transit_records = []
+
+    for _, row in st.session_state.transit_result.iterrows():
+
+        lat = row.get(
+            "gtfs_latitude"
+        )
+
+        lon = row.get(
+            "gtfs_longitude"
+        )
+
+        if pd.isna(lat) or pd.isna(lon):
+            continue
+
+        priority = row.get(
+            "cooling_priority_score"
+        )
+
+        if pd.isna(priority):
+            priority = 0.0
+
+        transit_records.append(
+            {
+                "name": row.get(
+                    "stop_name",
+                    "Unknown",
+                ),
+                "latitude": float(lat),
+                "longitude": float(lon),
+                "priority": float(priority),
+            }
+        )
+
+    if transit_records:
+
+        transit_layer = pdk.Layer(
+            "ScatterplotLayer",
+            transit_records,
+            get_position=[
+                "longitude",
+                "latitude",
+            ],
+            get_radius=70,
+            pickable=True,
+            filled=True,
+            get_fill_color=[
+                20,
+                120,
+                255,
+                220,
+            ],
+            line_width_min_pixels=1,
+        )
+
+        map_layers.append(
+            transit_layer
+        )
+
 deck = pdk.Deck(
-    layers=[
-        layer
-    ],
+    layers=map_layers,
     initial_view_state=(
         pdk.ViewState(
             latitude=40.713,
@@ -2303,7 +2839,22 @@ deck = pdk.Deck(
             pitch=0,
         )
     ),
-    tooltip=tooltip,
+    tooltip={
+        "html": """
+        <b>Tract:</b> {TRACT_NAME}<br/>
+        <b>Priority:</b> {priority_label}<br/>
+        <b>Cooling Priority:</b> {cooling_priority_score}<br/>
+        <b>Heat Exposure:</b> {heat_exposure_score}<br/>
+        <b>Social Vulnerability:</b> {social_vulnerability_score}
+        <br/><br/>
+        <b>Transit:</b> {name}<br/>
+        <b>Transit Priority:</b> {priority}
+        """,
+        "style": {
+            "backgroundColor": "white",
+            "color": "black",
+        },
+    },
 )
 
 st.pydeck_chart(
@@ -2494,6 +3045,21 @@ Balanced:
 Reach-First:
 - 40% Need
 - 60% Population Reach
+
+### Intervention Simulator
+
+Intervention effects are scenario assumptions used for decision exploration.
+They are not measured causal effects.
+
+### Transit Heat Overlay
+
+MTA subway station coordinates are overlaid on analyzed Census Tracts.
+Stations are flagged when their associated tract has Cooling Priority >= 75.
+
+### Peak Heat Timing
+
+FortyGuard `time_of_measure` is used to identify the modeled peak heat hour per tile.
+The dashboard reports the dominant peak hour in UTC.
 
 ### Important limitations
 
